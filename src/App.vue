@@ -1,22 +1,25 @@
 <template>
   <div id="app">
     <Header />
-    <main>
+    <!-- <main>
       <h2>Welcome to My Vue Project</h2>
       <p>This is a simple test page with a header and footer.</p>
-    </main>
+    </main> -->
+    <FAQ />
     <Footer />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+import FAQ from "./components/FAQ.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
     Header,
+    FAQ,
     Footer,
   },
 };
