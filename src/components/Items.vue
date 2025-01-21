@@ -35,7 +35,7 @@
         </small>
       </div>
     </div>
-  </div>
+  </div><!-- test -->
 </template>
 
 <script>
