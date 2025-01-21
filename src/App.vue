@@ -5,6 +5,7 @@
       <h2>Welcome to My Vue Project</h2>
       <p>This is a simple test page with a header and footer.</p>
     </main> -->
+    <Blog />
     <FAQ />
     <Footer />
   </div>
@@ -12,6 +13,7 @@
 
 <script>
 import Header from "./components/Header.vue";
+import Blog from "./components/Blog.vue"
 import FAQ from "./components/FAQ.vue";
 import Footer from "./components/Footer.vue";
 
@@ -19,6 +21,7 @@ export default {
   name: "App",
   components: {
     Header,
+    Blog,
     FAQ,
     Footer,
   },
