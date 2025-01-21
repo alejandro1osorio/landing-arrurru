@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #f8f8f8; 
+    /* background-color: #f8f8f8;  */
   }
   
   .footer-title {
@@ -57,7 +57,7 @@
     align-items: center;
     padding: 20px; 
     background-color: #ffffff; 
-    border: 1px solid #ddd; 
+    /* border: 1px solid #ddd; */ 
     border-radius: 10px; 
   }
   

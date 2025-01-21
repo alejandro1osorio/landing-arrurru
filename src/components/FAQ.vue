@@ -1,6 +1,8 @@
 <template>
     <div class="faq-container">
-      <h2 class="faq-title">Preguntas Frecuentes</h2>
+      <h2 class="faq-title">
+        Preguntas <span class="highlight">Frecuentes</span>
+      </h2>
       <div class="faq-content">
         <div class="faq-image">
           <img src="../assets/otros/pediatra.png" alt="Imagen relacionada" />
@@ -19,6 +21,7 @@
           </div>
         </div>
       </div>
+      <div class="bottom-line"></div>
     </div>
   </template>
   
@@ -30,23 +33,23 @@
         questions: [
           {
             title: "¿Qué significa que tienen fórmulas avaladas y aprobadas por pediatras?",
-            content: "Contenido de prueba 1",
+            content: "Nuestras fórmulas han sido evaluadas por expertos pediatras, garantizando seguridad y calidad para el cuidado de tu bebé.",
           },
           {
             title: "¿Todos los productos son libres de parabenos, sal, colorantes, sulfatos y cloruro de sodio adicionados?",
-            content: "Contenido de prueba 2",
+            content: "Sí, nuestros productos están diseñados sin ingredientes agresivos, cuidando la piel sensible de los bebés.",
           },
           {
             title: "¿Los productos Arrurrú contienen conservantes?",
-            content: "Contenido de prueba 3",
+            content: "Utilizamos conservantes aprobados para mantener la frescura de nuestros productos sin comprometer su seguridad.",
           },
           {
             title: "¿Arrurrú utiliza fragancia en sus productos?",
-            content: "Contenido de prueba 4",
+            content: "Sí, empleamos fragancias hipoalergénicas especialmente formuladas para bebés, suaves y seguras.",
           },
           {
             title: "¿Las toallitas de Arrurrú tienen proteína de leche?",
-            content: "Contenido de prueba 5",
+            content: "No, nuestras toallitas no contienen proteína de leche, siendo adecuadas para pieles sensibles o alérgicas.",
           },
         ],
       };
@@ -65,15 +68,24 @@
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    position: relative;
+    padding-bottom: 10px;
   }
   
   .faq-title {
     text-align: center;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 36px;
+    font-family: "Arial", sans-serif;
+    color: #E4016A;
     margin-bottom: 20px;
+    font-weight: lighter;
   }
   
+  .faq-title .highlight {
+    color: #E4016A; /* Color para "Frecuentes" */
+    font-weight: bold; /* Negrita para "Frecuentes" */
+  }
+
   .faq-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -81,6 +93,12 @@
     width: 100%;
   }
   
+  .faq-image {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
   .faq-image img {
     width: 100%;
     height: auto;
@@ -100,7 +118,9 @@
   }
   
   .accordion-item {
-    border: 1px solid #ddd;
+    border: 1px solid #f0f8ff;
+    border-left-color: #AFD8EC;
+    border-left-width: 10px;
     border-radius: 8px;
     margin-bottom: 10px;
     overflow: hidden;
@@ -111,7 +131,7 @@
     color: #333;
     padding: 15px;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     width: 100%;
     cursor: pointer;
@@ -123,21 +143,47 @@
   .accordion-body {
     padding: 15px;
     background: #fff;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+
+    line-height: 1.6;
+    color: #444;
   }
   
   .accordion-icon {
+    color: #E9006D;
+    font-size: 20px;
+    font-weight: bold;
     transition: transform 0.3s;
   }
   
   .accordion-icon.rotate {
     transform: rotate(45deg);
   }
-  
+
+  .bottom-line {
+    width: 50%; 
+    height: 4px; 
+    background-color: #AFD8EC; 
+    border-radius: 2px;
+    position: absolute;
+    bottom: -14px; 
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   /* Responsive Design */
   @media (max-width: 768px) {
     .faq-content {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .accordion-header {
+        font-size: 15px;
+    }
+
+    .accordion-body {
+        font-size: 14px;
     }
   }
   </style>
