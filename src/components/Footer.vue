@@ -56,7 +56,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px; 
-    background-color: #ffffff; 
+    /* background-color: #ffffff;  */
     /* border: 1px solid #ddd; */ 
     border-radius: 10px; 
   }

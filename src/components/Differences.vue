@@ -7,13 +7,13 @@
 
     <!-- Contenedor derecho -->
     <div class="text-container">
-      <h1>Diferencias entre la piel de un recién nacido y un adulto.</h1>
+      <h1>Diferencias entre la piel de <span style="color: #E31C79;">un recién nacido</span> y un adulto.</h1>
       <p>
-        La piel del recién nacido es <strong>verdaderamente extraordinaria</strong>,
+        <strong style="color: #234D75;">La piel del recién nacido es</strong> <strong style="color: #E91980;">verdaderamente extraordinaria</strong>,
         se caracteriza por su notable suavidad, tersura y uniformidad, ¿pero está
         preparada para sobrevivir en condiciones duras y hostiles después del
         nacimiento? Aunque la evidencia muestra la diferencia en la composición
-        de la piel del recién nacido y la de un adulto, <strong>la piel de un bebé a término
+        de la piel del recién nacido y la de un adulto, <strong style="color: #234D75;">la piel de un bebé a término
         está lista para adaptarse fuera del vientre</strong> gracias a la barrera protectora que
         se desarrolla durante el último trimestre por el vérnix caseoso.
       </p>
@@ -51,7 +51,7 @@ export default {
 }
 
 .image-container img {
-  max-width: 100%;
+  max-width: 110%; 
   height: auto;
   object-fit: cover;
 }
@@ -65,27 +65,27 @@ export default {
 }
 
 .text-container h1 {
-  font-size: 2rem; /* Ajuste del tamaño del título */
+  font-size: 2.5rem; 
   margin-bottom: 1rem;
-  color: #2c3e50;
+  color: #214F79;
   font-weight: 600;
   line-height: 1;
 }
 
 .text-container p {
-  font-size: 1.2rem;
+  font-size: 1.4rem; 
+  color: #214F79;
   text-align: justify;
-  line-height: 1.8;
   margin-bottom: 1.5rem;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .text-container small {
-  font-size: 1rem;
+  font-size: 1.2rem; 
   color: #7f8c8d;
   font-weight: 300;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 /* Responsividad */
@@ -97,6 +97,22 @@ export default {
   .image-container, .text-container {
     text-align: center;
   }
+
+  .image-container img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen en este rango */
+  }
+
+  .text-container h1 {
+    font-size: 2.2rem; /* Ajusta el tamaño del título en este rango */
+  }
+
+  .text-container p {
+    font-size: 1.3rem; /* Ajusta el tamaño del texto descriptivo */
+  }
+
+  .text-container small {
+    font-size: 1.1rem; /* Ajusta el tamaño del texto pequeño */
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -106,6 +122,22 @@ export default {
 
   .image-container, .text-container {
     text-align: center;
+  }
+
+  .image-container img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen para móviles */
+  }
+
+  .text-container h1 {
+    font-size: 2rem; /* Ajusta el tamaño del título en móviles */
+  }
+
+  .text-container p {
+    font-size: 1.2rem; /* Ajusta el tamaño del texto descriptivo */
+  }
+
+  .text-container small {
+    font-size: 1rem; /* Ajusta el tamaño del texto pequeño */
   }
 }
 </style>
