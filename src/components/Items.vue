@@ -49,7 +49,7 @@ export default {
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(3, 1fr);
-  padding: 16px; /* Margen interior para que no esté tan pegado a los bordes */
+  padding: 24px; /* Aumentado el margen interior */
 }
 
 .grid-item {
@@ -95,6 +95,12 @@ img {
 @media (max-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr;
+  }
+
+  .grid-item.item3,
+  .grid-item.item4,
+  .grid-item.item5 {
+    grid-column: span 2; /* Cada imagen ocupa toda la fila en móviles */
   }
 
   .item7-9 {
