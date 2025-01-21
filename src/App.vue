@@ -6,6 +6,7 @@
       <p>This is a simple test page with a header and footer.</p>
     </main> -->
     <Differences />
+    <Items />
     <Blog />
     <FAQ />
     <Footer />
@@ -14,16 +15,18 @@
 
 <script>
 import Header from "./components/Header.vue";
+import Differences from "./components/Differences.vue";
+import Items from "./components/Items.vue";
 import Blog from "./components/Blog.vue"
 import FAQ from "./components/FAQ.vue";
 import Footer from "./components/Footer.vue";
-import Differences from "./components/Differences.vue";
 
 export default {
   name: "App",
   components: {
     Header,
     Differences,
+    Items,
     Blog,
     FAQ,
     Footer,
