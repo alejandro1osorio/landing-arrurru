@@ -32,6 +32,8 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .differences-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -55,30 +57,48 @@ export default {
 }
 
 .text-container {
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  font-family: 'Poppins', sans-serif; 
 }
 
 .text-container h1 {
-  font-size: 1.8rem;
+  font-size: 2rem; /* Ajuste del tamaño del título */
   margin-bottom: 1rem;
   color: #2c3e50;
+  font-weight: 600;
+  line-height: 1;
 }
 
 .text-container p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: justify;
-  line-height: 1.6;
-  margin-bottom: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
 }
 
 .text-container small {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: #7f8c8d;
+  font-weight: 300;
+  line-height: 1;
 }
 
 /* Responsividad */
+@media screen and (max-width: 1180px) and (min-width: 800px) {
+  .differences-container {
+    grid-template-columns: 1fr; /* Cambia a una columna */
+  }
+
+  .image-container, .text-container {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .differences-container {
     grid-template-columns: 1fr;
