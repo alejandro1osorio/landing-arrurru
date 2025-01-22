@@ -58,7 +58,7 @@ export default {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   gap: 1rem;
-  padding: 6rem;
+  padding: 2rem;
 }
 
 .header {
