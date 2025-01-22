@@ -1,11 +1,11 @@
 <template>
   <div class="grid-container">
     <div class="grid-item item1">
-      <h2>El cuidado de la piel de los recién nacidos favorece el buen funcionamiento y su maduración después del nacimiento<sup>1</sup></h2>
+      <h2>El cuidado de la piel de los recién nacidos <span class="highlight">favorece el buen funcionamiento y su maduración</span> después del nacimiento<sup>1</sup>, teniendo en cuenta que:</h2>
     </div>
     <div class="grid-item item2">
       <p>
-        Recientes investigaciones señalan que el uso diario de emolientes cutáneos desde el nacimiento del bebé a término es un factor protector en la prevención de la dermatitis atópica<sup>1</sup>.
+        Recientes investigaciones señalan que el uso diario de emolientes cutáneos desde el nacimiento del bebé a término es <span class="highlight">un factor protector en la prevención de la dermatitis atópica<sup>1</sup>.</span>
       </p>
     </div>
     <div class="grid-item item3">
@@ -19,7 +19,7 @@
     </div>
     <div class="grid-item item6">
       <p>
-        En el cuidado del recién nacido, es fundamental prestar atención especial a los siguientes aspectos: el baño, la hidratación de la piel, el cuidado del cordón umbilical y la zona del pañal.
+        <strong>En el cuidado del recién nacido,</strong> es fundamental prestar atención especial a los siguientes aspectos: el baño, la hidratación de la piel, el cuidado del cordón umbilical y la zona del pañal.
       </p>
     </div>
     <div class="grid-item item7-9">
@@ -28,7 +28,7 @@
       </div>
       <div class="text-container">
         <p>
-          <strong>Arrurú</strong> es una marca experta en el cuidado del bebé en las diferentes etapas que cuenta con una línea completa de productos suaves, seguros, hipoalergénicos, con el pH ideal para la piel del bebé que no irrita los ojos<sup>*</sup>, dermatológicamente comprobados, certificados y recomendados por dermatólogos y pediatras.
+          <strong style="color: #E31C79;">Es una marca experta en el cuidado del bebé</strong> en las diferentes etapas que cuenta con una línea completa de productos suaves, seguros, hipoalergénicos, con el pH ideal para la piel del bebé que no irrita los ojos<sup>*</sup>, dermatológicamente comprobados, certificados y recomendados por dermatólogos y pediatras.
         </p>
         <small>
           <sup>1</sup>Que hay de nuevo en el cuidado de la piel del recién nacido a término, Johnson E. Hunt R. Infant skin care: updates and recommendations. Curr Opin Pediatr. 2019, 31:476-481.
@@ -59,6 +59,26 @@ export default {
   background-color: #f9f9f9;
 }
 
+.item1 h2 {
+  font-weight: 500; /* Negrita de 500 para el texto general */
+  color: #214F79;
+}
+
+.item1 h2 .highlight {
+  color: #E31C79; /* Color específico para el texto resaltado */
+  font-weight: 700; /* Negrita de 700 para el texto resaltado */
+}
+
+.item2 p {
+  font-weight: 300; /* Negrita de 300 para el texto general */
+  color: #214F79;
+}
+
+.item2 p .highlight {
+  color: #E31C79; /* Color específico para el texto resaltado */
+  font-weight: 700; /* Negrita de 700 para el texto resaltado */
+}
+
 .item1,
 .item2 {
   grid-column: span 3;
@@ -85,6 +105,14 @@ export default {
 
 .text-container {
   flex: 1;
+}
+
+p, h2 {
+  color: #214F79; /* Color para los textos principales */
+}
+
+small {
+  color: #7f8c8d; /* Color específico para el texto small */
 }
 
 img {
