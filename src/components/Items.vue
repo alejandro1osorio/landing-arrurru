@@ -24,7 +24,7 @@
     </div>
     <div class="grid-item item7-9">
       <div class="image-container">
-        <img src="../assets/logos-sellos/logoFarmatodo.png" alt="Imagen 7" />
+        <img src="../assets/logos-sellos/logo-arrurru.png" alt="Imagen 7" />
       </div>
       <div class="text-container">
         <p>
@@ -62,10 +62,12 @@ export default {
 .item1,
 .item2 {
   grid-column: span 3;
+  text-align: center;
 }
 
 .item6 {
   grid-column: span 3;
+  text-align: center;
 }
 
 .item7-9 {

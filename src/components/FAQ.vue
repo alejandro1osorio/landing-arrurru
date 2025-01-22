@@ -75,7 +75,7 @@
   .faq-title {
     text-align: center;
     font-size: 36px;
-    font-family: "Arial", sans-serif;
+    /* font-family: "Arial", sans-serif; */
     color: #E4016A;
     margin-bottom: 20px;
     font-weight: lighter;
@@ -144,7 +144,7 @@
     padding: 15px;
     background: #fff;
     font-size: 16px;
-    font-family: "Arial", sans-serif;
+    /* font-family: "Arial", sans-serif; */
 
     line-height: 1.6;
     color: #444;

@@ -34,7 +34,7 @@
     text-align: center;
     margin-bottom: 30px;
     color: #244E75; 
-    font-family: "Arial", sans-serif;
+    /* font-family: "Arial", sans-serif; */
   }
   
   .footer-grid {
