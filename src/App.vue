@@ -7,6 +7,7 @@
     </main> -->
     <Differences />
     <Items />
+    <Benefits />
     <Blog />
     <FAQ />
     <Footer />
@@ -17,6 +18,7 @@
 import Header from "./components/Header.vue";
 import Differences from "./components/Differences.vue";
 import Items from "./components/Items.vue";
+import Benefits from "./components/Benefits.vue";
 import Blog from "./components/Blog.vue"
 import FAQ from "./components/FAQ.vue";
 import Footer from "./components/Footer.vue";
@@ -27,6 +29,7 @@ export default {
     Header,
     Differences,
     Items,
+    Benefits,
     Blog,
     FAQ,
     Footer,
