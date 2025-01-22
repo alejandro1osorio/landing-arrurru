@@ -19,7 +19,7 @@
     </div>
     <div class="grid-item item6">
       <p>
-        <strong>En el cuidado del recién nacido,</strong> es fundamental prestar atención especial a los siguientes aspectos: el baño, la hidratación de la piel, el cuidado del cordón umbilical y la zona del pañal.
+        <strong>En el cuidado del recién nacido,</strong> es fundamental prestar atención especial a los siguientes aspectos: el baño, la hidratación de la piel, el cuidado del cordón umbilical y la zona del pañal<sup>1</sup>
       </p>
     </div>
     <div class="grid-item item7-9">
@@ -47,16 +47,25 @@ export default {
 <style scoped>
 .grid-container {
   display: grid;
-  gap: 16px;
+  /* gap: 16px; */
   grid-template-columns: repeat(3, 1fr);
   padding: 24px; /* Aumentado el margen interior */
+  line-height: 1.05;
 }
 
 .grid-item {
-  padding: 16px;
-  border: 1px solid #ddd;
+  /* padding: 16px; */
+  /* border: 1px solid #ddd; */
   border-radius: 8px;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
+}
+
+.item1 {
+  grid-column: span 3;
+  text-align: center;
+  font-size: 1.5rem; /* Aumentado el tamaño de letra */
+  padding-left: 32px; /* Aumentado margen lateral izquierdo */
+  padding-right: 32px; /* Aumentado margen lateral derecho */
 }
 
 .item1 h2 {
@@ -67,6 +76,14 @@ export default {
 .item1 h2 .highlight {
   color: #E31C79; /* Color específico para el texto resaltado */
   font-weight: 700; /* Negrita de 700 para el texto resaltado */
+}
+
+.item2 {
+  grid-column: span 3;
+  text-align: center;
+  font-size: 1.5rem; /* Aumentado el tamaño de letra */
+  padding-left: 48px; /* Aumentado margen lateral izquierdo */
+  padding-right: 48px; /* Aumentado margen lateral derecho */
 }
 
 .item2 p {
@@ -88,6 +105,9 @@ export default {
 .item6 {
   grid-column: span 3;
   text-align: center;
+  font-size: 1.4rem; /* Aumentado el tamaño de letra */
+  padding-left: 48px; /* Aumentado margen lateral izquierdo */
+  padding-right: 48px; /* Aumentado margen lateral derecho */
 }
 
 .item7-9 {
@@ -95,6 +115,9 @@ export default {
   display: flex;
   align-items: flex-start;
   gap: 16px;
+  font-size: 1.8rem; /* Tamaño de letra mayor en monitores */
+  padding-left: 64px; /* Aumentar margen lateral izquierdo */
+  padding-right: 64px; /* Aumentar margen lateral derecho */
 }
 
 .image-container img {
@@ -141,6 +164,12 @@ img {
 
   .image-container img {
     width: 100px; /* Tamaño reducido para móviles */
+  }
+
+  .item1, .item2 {
+    font-size: 1rem; /* Tamaño de letra reducido en móviles */
+    padding-left: 16px; /* Reducir margen lateral en móviles */
+    padding-right: 16px; /* Reducir margen lateral en móviles */
   }
 }
 </style>
