@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Hero />
     <!-- <main>
       <h2>Welcome to My Vue Project</h2>
       <p>This is a simple test page with a header and footer.</p>
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Header from "./components/Header.vue";
+import Hero from "./components/Hero.vue";
 import Differences from "./components/Differences.vue";
 import Items from "./components/Items.vue";
 import Benefits from "./components/Benefits.vue";
@@ -26,7 +26,7 @@ import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
-    Header,
+    Hero,
     Differences,
     Items,
     Benefits,
