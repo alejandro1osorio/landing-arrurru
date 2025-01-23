@@ -1,12 +1,18 @@
 <template>
   <section class="hero">
+    <Header />
     <img src="../assets/logos-sellos/logo-arrurru.png" alt="Centered Image" class="centered-image" />
   </section>
 </template>
 
 <script>
+import Header from "./Header.vue";
+
 export default {
   name: "Hero",
+  components: {
+    Header,
+  },
 };
 </script>
 
