@@ -65,6 +65,12 @@ export default {
   padding: 0 3rem; /* Ajustar márgenes interiores laterales */
 }
 
+@media (min-width: 1600px) {
+  .benefits-container {
+    padding: 0 12rem; /* Aumentar aún más las márgenes interiores en monitores muy grandes */
+  }
+}
+
 .header {
   text-align: center;
 }
