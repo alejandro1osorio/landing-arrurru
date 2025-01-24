@@ -134,6 +134,13 @@ export default {
   cursor: pointer;
   font-size: 1.5rem;
   color: #214F79;
+  background: #f2f2f2;
+  width: 10%;
+  height: 10%;
+  border-radius: 60%;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -141,9 +148,9 @@ export default {
     display: none;
   }
 
-  .menu-toggle {
+  /* .menu-toggle {
     display: block;
-  }
+  } */
 
   .nav-list {
     flex-direction: column;
