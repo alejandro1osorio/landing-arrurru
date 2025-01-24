@@ -165,4 +165,14 @@ export default {
     gap: 1rem;
   }
 }
+
+@media (min-width: 800px) and (max-width: 950px) {
+  .header-logo {
+    display: none;
+  }
+
+  .header-nav {
+    justify-content: center;
+  }
+}
 </style>
