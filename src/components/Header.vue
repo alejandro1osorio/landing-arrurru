@@ -139,8 +139,8 @@ export default {
   height: 10%;
   border-radius: 60%;
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
