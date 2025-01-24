@@ -7,6 +7,7 @@
     </main> -->
     <Differences />
     <Items />
+    <Slider />
     <Benefits />
     <Blog />
     <FAQ />
@@ -18,6 +19,8 @@
 import Hero from "./components/Hero.vue";
 import Differences from "./components/Differences.vue";
 import Items from "./components/Items.vue";
+import Slider from "./components/Slider.vue";
+
 import Benefits from "./components/Benefits.vue";
 import Blog from "./components/Blog.vue"
 import FAQ from "./components/FAQ.vue";
@@ -29,6 +32,7 @@ export default {
     Hero,
     Differences,
     Items,
+    Slider,
     Benefits,
     Blog,
     FAQ,
