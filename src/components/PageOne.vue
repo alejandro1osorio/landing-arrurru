@@ -1,7 +1,7 @@
 <template>
   <div class="page1">
-    <h2>Página 1</h2>
-    <p>Bienvenido a la primera página del slider.</p>
+    <h2 style="color: white;">Página 1</h2>
+    <p style="color: white;">Bienvenido a la primera página del slider.</p>
   </div>
 </template>
 
@@ -13,10 +13,6 @@ export default {
 
 
 <style>
-h2, p {
-  color: aliceblue;
-}
-
 .page1 {
   background: #1f412c;
 }

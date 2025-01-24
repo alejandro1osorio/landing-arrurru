@@ -47,5 +47,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #F3F3F3;
+  user-select: none;
 }
 </style>

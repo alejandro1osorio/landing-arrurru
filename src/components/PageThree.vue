@@ -1,7 +1,7 @@
 <template>
   <div class="page3">
-    <h2>Página 3</h2>
-    <p>Has llegado a la tercera página del slider.</p>
+    <h2 style="color: white;">Página 3</h2>
+    <p style="color: white;">Has llegado a la tercera página del slider.</p>
   </div>
 </template>
 
@@ -12,10 +12,6 @@ export default {
 </script>
 
 <style>
-h2, p {
-  color: aliceblue;
-}
-
 .page3 {
   background: #181749;
 }

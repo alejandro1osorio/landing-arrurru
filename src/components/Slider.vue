@@ -107,4 +107,32 @@ export default {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+/* Responsividad */
+.slider-container {
+  height: 100vh;
+}
+
+.slider {
+  height: 100%;
+  max-height: 700px;
+}
+
+.nav-button {
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .slider {
+    height: 90%;
+  }
+
+  .nav-button {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+}
 </style>

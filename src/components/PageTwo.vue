@@ -1,7 +1,7 @@
 <template>
   <div class="page2">
-    <h2>Página 2</h2>
-    <p>Esta es la segunda página con contenido diferente.</p>
+    <h2 style="color: white;">Página 2</h2>
+    <p style="color: white;">Esta es la segunda página con contenido diferente.</p>
   </div>
 </template>
 
@@ -12,10 +12,6 @@ export default {
 </script>
 
 <style>
-h2, p {
-  color: aliceblue;
-}
-
 .page2 {
   background: #181749;
 }
