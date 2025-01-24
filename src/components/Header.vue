@@ -34,7 +34,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 3rem; /* Increased padding for better spacing */
+  padding: 1rem 2rem; /* Uniform padding for consistent spacing */
   position: fixed;
   top: 0;
   width: 100%;
@@ -45,12 +45,14 @@ export default {
 .header-logo {
   width: 150px;
   height: auto;
+  margin-left: 2rem; /* Add left margin to separate from the edge */
 }
 
 .header-nav {
   flex-grow: 1;
   display: flex;
   justify-content: flex-end;
+  padding-right: 2rem; /* Add right padding to the navigation */
 }
 
 .nav-list {
@@ -58,8 +60,8 @@ export default {
   gap: 1.5rem;
   list-style: none;
   margin: 0;
-  padding: 0.8rem 2rem; /* Increased padding for better spacing */
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 0.8rem 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
 }
 
@@ -80,18 +82,18 @@ export default {
   display: block;
   width: 0;
   height: 2px;
-  background-color: #a70c55; /* Line color */
+  background-color: #a70c55;
   margin: 0 auto;
   transition: width 0.3s ease;
 }
 
 .nav-link:hover::after,
 .nav-link.active::after {
-  width: 50%; /* Line expands under the text */
+  width: 50%;
 }
 
 .nav-link.active {
-  color: #a70c55; /* Active link color */
+  color: #a70c55;
 }
 
 .nav-link:hover {
@@ -100,11 +102,11 @@ export default {
 
 @media (max-width: 768px) {
   .header-logo {
-    display: none; /* Hide logo on smaller screens */
+    display: none;
   }
 
   .nav-list {
-    justify-content: center; /* Center navigation links */
+    justify-content: center;
   }
 }
 </style>
