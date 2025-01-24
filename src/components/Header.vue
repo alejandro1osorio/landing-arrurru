@@ -35,7 +35,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem; /* Uniform padding for consistent spacing */
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   background-color: transparent; /* Transparent header */
@@ -53,6 +53,8 @@ export default {
   display: flex;
   justify-content: flex-end;
   padding-right: 2rem; /* Add right padding to the navigation */
+  position: fixed;
+  right: 0;
 }
 
 .nav-list {
@@ -71,8 +73,8 @@ export default {
 
 .nav-link {
   text-decoration: none;
-  color: #333;
-  font-weight: bold;
+  color: #214F79;
+  font-weight: 400;
   position: relative;
   transition: color 0.3s ease;
 }
@@ -93,11 +95,13 @@ export default {
 }
 
 .nav-link.active {
-  color: #a70c55;
+  font-weight: bold;
+  color: #214F79;
 }
 
 .nav-link:hover {
-  color: #a70c55;
+  font-weight: bold;
+  color: #214F79;
 }
 
 @media (max-width: 768px) {
