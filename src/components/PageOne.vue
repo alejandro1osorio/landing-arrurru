@@ -6,11 +6,13 @@
       <div class="box top-left" style="flex-direction: row;">
         <p>Con Hidrosense (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
         <img src="../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" />
+        <span class="line right"></span>
       </div>
       <!-- Contenedor inferior izquierdo -->
       <div class="box bottom-left" style="flex-direction: row;">
         <p>Con extracto de algodón que cuida la piel.</p>
         <img src="../assets/beneficios-productos/algodon.png" alt="Algodón" />
+        <span class="line right"></span>
       </div>
       <!-- Imagen en el centro -->
       <div class="image-container">
@@ -20,12 +22,14 @@
       <div class="box top-right">
         <img src="../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" />
         <p>Libre de parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
+        <span class="line left"></span>
       </div>
       <!-- Contenedor inferior derecho -->
       <div class="box bottom-right">
         <img src="../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" />
         <p>Delicado con los ojos
           del bebé, no los irrita.</p>
+        <span class="line left"></span>
       </div>
     </div>
   </div>
@@ -97,6 +101,7 @@ export default {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   gap: 8px; /* Ajustado el espaciado */
   /* padding: 8px; */
+  position: relative; /* Necesario para las líneas */
 }
 
 .box img {
@@ -106,6 +111,44 @@ export default {
 
 .box p {
   font-size: 0.8rem; /* Reducido el tamaño del texto */
+}
+
+/* Líneas decorativas */
+.line {
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: #000080;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.line.right {
+  right: -20px;
+}
+
+.line.left {
+  left: -20px;
+}
+
+.line::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #40e0d0;
+  border: 2px solid #000080;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.line.right::after {
+  right: -10px;
+}
+
+.line.left::after {
+  left: -10px;
 }
 
 .top-left {
