@@ -60,19 +60,20 @@ export default {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: auto; /* Altura ajustada */
   position: relative;
   overflow: hidden;
+  background: #804680fa;
 }
 
 .slider {
   width: 100%;
-  height: 80%;
+  height: auto; /* Ajuste de altura interna */
   border: 1px solid #ccc;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f9f9f9;
+  background-color: #553333;
 }
 
 .nav-button {
@@ -109,12 +110,14 @@ export default {
 
 /* Responsividad */
 .slider-container {
-  height: 100vh;
+  height: auto; /* Ajuste también para la responsividad */
+  background: #804680fa;
+
 }
 
 .slider {
-  height: 100%;
-  max-height: 700px;
+  height: auto;
+  /* max-height: 700px; */
 }
 
 .nav-button {
