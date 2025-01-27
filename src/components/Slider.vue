@@ -1,4 +1,3 @@
-// Slider.vue
 <template>
   <div class="slider-container">
     <div class="slider">
