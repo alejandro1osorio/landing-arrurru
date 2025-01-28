@@ -21,7 +21,7 @@
       <!-- Contenedor superior derecho -->
       <div class="box top-right">
         <img src="../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" />
-        <p>Libre de parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
+        <p style="font-size: 0.7rem;">Libre de parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
         <span class="line left"></span>
       </div>
       <!-- Contenedor inferior derecho -->
@@ -155,27 +155,27 @@ export default {
   grid-area: top-left;
   flex-direction: row-reverse; /* Imagen a la derecha */
   padding-left: 20px;
-  border-radius: 0 0 0 0;
+  border-radius: 0 59px 59px 59px;
 }
 
 .bottom-left {
   grid-area: bottom-left;
   flex-direction: row-reverse; /* Imagen a la derecha */
   padding-left: 20px;
-  border-radius: 0 0 0 0;
+  border-radius: 0 59px 59px 59px;
 }
 
 .top-right {
   grid-area: top-right;
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
-  border-radius: 0 0 0 0;
+  border-radius: 100px 0 0 100px;
 }
 
 .bottom-right {
   grid-area: bottom-right;
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
-  border-radius: 0 0 0 0;
+  border-radius: 100px 0 0 100px;
 }
 </style>
