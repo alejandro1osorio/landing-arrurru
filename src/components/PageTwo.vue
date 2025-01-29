@@ -1,6 +1,6 @@
 <template>
   <div class="page-grid">
-    <h1 class="page-title">Shampoo y Baño Líquido Recién Nacido</h1>
+    <h1 class="page-title">Crema Recién Nacido</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
