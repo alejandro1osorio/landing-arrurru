@@ -69,7 +69,7 @@ export default {
 .slider {
   width: 100%;
   height: auto; /* Ajuste de altura interna */
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +78,7 @@ export default {
 
 .nav-button {
   position: absolute;
-  top: 50%;
+  top: 80%;
   transform: translateY(-50%);
   background-color: rgba(255, 192, 203, 0.8);
   border: none;

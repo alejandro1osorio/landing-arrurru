@@ -1,5 +1,6 @@
 <template>
   <div class="page-grid">
+    <InfoOne />
     <h1 class="page-title">Shampoo y Baño Líquido Recién Nacido</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
@@ -43,12 +44,22 @@
 </template>
 
 <script>
+import InfoOne from './InfoOne.vue';
+
 export default {
   name: 'PageOne',
+  components: { InfoOne }
 };
 </script>
 
 <style scoped>
+.info-container {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
 .page-grid {
   display: grid;
   grid-template-rows: auto 1fr;
@@ -56,9 +67,9 @@ export default {
   align-items: center;
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 0 20px;
   box-sizing: border-box;
-  gap: 20px;
+  /* gap: 20px; */
   background-color: #F3F3F3;
 }
 
