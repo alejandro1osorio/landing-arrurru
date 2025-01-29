@@ -3,34 +3,41 @@
     <h1 class="page-title">Shampoo y Baño Líquido Recién Nacido</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
-      <div class="box top-left" style="flex-direction: row;">
-        <p>Con Hidrosense (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
-        <img src="../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" />
-        <span class="line right"></span>
-      </div>
-      <!-- Contenedor inferior izquierdo -->
-      <div class="box bottom-left" style="flex-direction: row;">
-        <p>Con extracto de algodón que cuida la piel.</p>
-        <img src="../assets/beneficios-productos/algodon.png" alt="Algodón" />
-        <span class="line right"></span>
-      </div>
       <!-- Imagen en el centro -->
       <div class="image-container">
+        <div class="container-item">
+          <div class="box top-left" style="flex-direction: row;">
+            <p>Con Hidrosense (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
+            <img src="../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" />
+            <span class="line right"></span>
+          </div>
+          <!-- Contenedor inferior izquierdo -->
+          <div class="box bottom-left" style="flex-direction: row;">
+            <p>Con extracto de algodón que cuida la piel.</p>
+            <img src="../assets/beneficios-productos/algodon.png" alt="Algodón" />
+            <span class="line right"></span>
+          </div>
+        </div>
+        
         <img src="../assets/productos/crema.png" alt="Shampoo y Baño Líquido Recién Nacido" />
+        
+        <div>
+          <div class="box top-right">
+            <img src="../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" />
+            <p style="font-size: 0.7rem;">Libre de parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
+            <span class="line left"></span>
+          </div>
+          <!-- Contenedor inferior derecho -->
+          <div class="box bottom-right">
+            <img src="../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" />
+            <p>Delicado con los ojos
+              del bebé, no los irrita.</p>
+            <span class="line left"></span>
+          </div>
+        </div>
       </div>
       <!-- Contenedor superior derecho -->
-      <div class="box top-right">
-        <img src="../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" />
-        <p style="font-size: 0.7rem;">Libre de parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
-        <span class="line left"></span>
-      </div>
-      <!-- Contenedor inferior derecho -->
-      <div class="box bottom-right">
-        <img src="../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" />
-        <p>Delicado con los ojos
-          del bebé, no los irrita.</p>
-        <span class="line left"></span>
-      </div>
+
     </div>
   </div>
 </template>
@@ -157,6 +164,7 @@ export default {
   flex-direction: row-reverse; /* Imagen a la derecha */
   padding-left: 20px;
   border-radius: 57px 59px 59px 17px;
+  margin-bottom: 50%;
 }
 
 .bottom-left {
@@ -171,6 +179,7 @@ export default {
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
   border-radius: 100px 100px 35px 100px;
+  margin-bottom: 50%;
 }
 
 .bottom-right {
