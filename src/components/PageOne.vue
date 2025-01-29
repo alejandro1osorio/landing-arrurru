@@ -52,7 +52,7 @@ export default {
   padding: 20px;
   box-sizing: border-box;
   gap: 20px;
-  background-color: #f0f8ff;
+  background-color: #F3F3F3;
 }
 
 .page-title {
@@ -67,7 +67,8 @@ export default {
   grid-template-areas:
     "top-left image top-right"
     "bottom-left image bottom-right";
-  grid-template-columns: auto 1fr auto;
+  /* grid-template-columns: auto 1fr auto; */
+  grid-template-columns: 1fr 0.4fr 1fr;
   grid-template-rows: auto auto;
   gap: 20px;
   align-items: center;
@@ -80,7 +81,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 130%;
   max-width: 300px;
 }
 
@@ -116,19 +117,19 @@ export default {
 /* Líneas decorativas */
 .line {
   position: absolute;
-  width: 50px;
+  width: 100px;
   height: 2px;
-  background-color: #000080;
+  background-color: #7BA0AD;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .line.right {
-  right: -20px;
+  right: -94px;
 }
 
 .line.left {
-  left: -20px;
+  left: -94px;
 }
 
 .line::after {
@@ -136,8 +137,8 @@ export default {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #40e0d0;
-  border: 2px solid #000080;
+  background-color: #7AA0AD;
+  border: 2px solid #CFE1ED;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
@@ -155,27 +156,27 @@ export default {
   grid-area: top-left;
   flex-direction: row-reverse; /* Imagen a la derecha */
   padding-left: 20px;
-  border-radius: 0 59px 59px 59px;
+  border-radius: 57px 59px 59px 17px;
 }
 
 .bottom-left {
   grid-area: bottom-left;
   flex-direction: row-reverse; /* Imagen a la derecha */
   padding-left: 20px;
-  border-radius: 0 59px 59px 59px;
+  border-radius: 57px 59px 59px 17px;
 }
 
 .top-right {
   grid-area: top-right;
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
-  border-radius: 100px 0 0 100px;
+  border-radius: 100px 100px 35px 100px;
 }
 
 .bottom-right {
   grid-area: bottom-right;
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
-  border-radius: 100px 0 0 100px;
+  border-radius: 100px 100px 35px 100px;
 }
 </style>
