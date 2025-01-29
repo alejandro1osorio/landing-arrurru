@@ -5,7 +5,7 @@
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
       <div class="image-container">
-        <div class="container-item" style="margin-right: 50px;">
+        <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
             <p>Con Hidrosense (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
             <img src="../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" />
@@ -19,9 +19,9 @@
           </div>
         </div>
         
-        <img src="../assets/productos/toallitas-humedas.png" alt="Shampoo y Baño Líquido Recién Nacido" />
+        <img src="../assets/productos/toallitas-humedas.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 18%;"/>
         
-        <div class="container-item" style="margin-left: 50px;">
+        <div class="container-item">
           <div class="box top-right">
             <img src="../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" />
             <p style="font-size: 0.7rem;">Libre de parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>

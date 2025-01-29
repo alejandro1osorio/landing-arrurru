@@ -19,7 +19,7 @@
           </div>
         </div>
         
-        <img src="../assets/productos/crema.png" alt="Shampoo y Baño Líquido Recién Nacido" />
+        <img src="../assets/productos/crema.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 6%;"/>
         
         <div>
           <div class="box top-right">
