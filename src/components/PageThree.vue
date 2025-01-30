@@ -1,5 +1,6 @@
 <template>
   <div class="page-grid">
+    <InfoThree />
     <h1 class="page-title">Toallitas Húmedas</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
@@ -43,8 +44,11 @@
 </template>
 
 <script>
+import InfoThree from './InfoThree.vue';
+
 export default {
   name: 'PageOne',
+  components: { InfoThree }
 };
 </script>
 

@@ -1,5 +1,6 @@
 <template>
   <div class="page-grid">
+    <InfoTwo />
     <h1 class="page-title">Crema Recién Nacido</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
@@ -43,8 +44,11 @@
 </template>
 
 <script>
+import InfoTwo from './InfoTwo.vue';
+
 export default {
   name: 'PageOne',
+  components: { InfoTwo }
 };
 </script>
 
