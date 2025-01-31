@@ -23,20 +23,20 @@ export default {
 .info-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start; /* Asegura que todo toque el borde izquierdo */
   width: 100%;
-  height: 100vh; /* Manteniendo la altura del contenedor principal */
+  min-height: 100vh;
   text-align: center;
   box-sizing: border-box;
   background-color: #d8b0b0b0;
   position: relative;
-  padding-top: 20px;
 }
 
 .text-container {
   width: 100%;
   text-align: center;
+  margin-bottom: 20px; /* Espacio adicional para evitar superposición */
 }
 
 .title {
@@ -53,40 +53,52 @@ export default {
 .bottom-container {
   display: grid;
   place-items: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 90%;
-  height: 450px; /* Aumentado aún más el tamaño del contenedor */
+  min-height: 600px;
   background-color: rgba(255, 255, 255, 0.8);
   border-top-right-radius: 20px;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 5px; /* Asegura que esté al final sin sobreponer */
+  align-self: flex-start; /* Asegura que toque el borde izquierdo */
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .bottom-container {
+    min-height: 600px; /* Aumento de altura solo en tablets medianas */
+    width: 92%;
+  }
 }
 
 @media (max-width: 768px) {
   .bottom-container {
-    height: 350px; /* Ajuste responsivo para pantallas más pequeñas */
+    min-height: 400px;
     width: 95%;
   }
 }
 
 @media (max-width: 480px) {
   .bottom-container {
-    height: 300px; /* Ajuste responsivo para móviles */
+    min-height: 320px;
     width: 100%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .bottom-container {
+    min-height: 630px; /* Mantiene la altura original en computadoras */
   }
 }
 
 @media (min-width: 1440px) {
   .bottom-container {
-    height: 600px; /* Ajuste para monitores grandes */
+    min-height: 720px;
     width: 85%;
   }
 }
 
 @media (min-width: 1920px) {
   .bottom-container {
-    height: 780px; /* Ajuste para monitores muy grandes */
+    min-height: 800px;
     width: 95%;
   }
 }
