@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <h1 class="title">Momento del Cuidado de la Colita</h1>
-    <p class="description">El área del pañal suele irritarse con facilidad, por lo que es clave el uso de toallitas que incorporen detergentes suaves para mantener intacto el manto hidrolipídico y cremas protectoras, que como su nombre lo indica, forman una película protectora frente a las agresiones de factores externos*.</p>
+    <h1 class="title">Momento del Masaje</h1>
+    <p class="description">La piel de los recién nacidos experimenta cambios significativos en su entorno tras el nacimiento, y su hidratación puede disminuir rápidamente apenas se da el alumbramiento1. Usar regularmente emolientes ayuda a proteger y mantener la salud de la piel del bebé, reduciendo el riesgo de dermatitis atópica o seborreica, especialmente en bebés con antecedentes familiares de enfermedades cutáneas1.</p>
     <img src="../assets/otros/baby3.png" alt="Descripción de la imagen" class="corner-image">
     <div class="top-right-image">
       <img src="../assets/otros/info-toallas.png" alt="Imagen superior derecha" class="extra-top-image">
@@ -21,7 +21,6 @@ export default {
 
 <style scoped>
 .container {
-  background: #5e434359;
   width: 100%;
   text-align: center;
   box-sizing: border-box;
@@ -54,7 +53,7 @@ export default {
 }
 
 .extra-top-image {
-  width: 120px;
+  width: 470px;
   height: auto;
   object-fit: contain;
 }
@@ -68,23 +67,50 @@ export default {
 }
 
 .extra-image {
-  width: 100px;
+  width: 220px;
   height: auto;
   object-fit: contain;
 }
 
+/* Media query para pantallas y monitores muy grandes */
+@media (min-width: 1920px) {
+  .top-right-image {
+    top: 180px;
+    right: 250px;
+  }
+
+  .bottom-right-images {
+    bottom: 10px;
+    right: 290px;
+  }
+
+  .extra-top-image {
+    width: 550px;
+  }
+}
+
+/* Media query para computadoras portátiles */
 @media (max-width: 1440px) {
   .corner-image {
     height: 600px;
   }
+  .top-right-image {
+    top: 195px;
+    right: 90px;
+  }
+  .bottom-right-images{
+    bottom: 10px;
+    right: 90px;
+  }
   .extra-image {
-    width: 80px;
+    width: 190px;
   }
   .extra-top-image {
-    width: 100px;
+    width: 400px;
   }
 }
 
+/* Media query para tablets medianas */
 @media (max-width: 1024px) {
   .corner-image {
     height: 500px;
@@ -97,6 +123,7 @@ export default {
   }
 }
 
+/* Media query para móviles grandes */
 @media (max-width: 768px) {
   .title {
     font-size: 1.5rem;
@@ -115,6 +142,7 @@ export default {
   }
 }
 
+/* Media query para móviles pequeños */
 @media (max-width: 480px) {
   .corner-image {
     height: 250px;

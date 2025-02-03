@@ -134,7 +134,7 @@ export default {
   cursor: pointer;
   font-size: 1.5rem;
   color: #214F79;
-  background: #f2f2f2;
+  /* background: #f2f2f2; */
   width: 10%;
   height: 10%;
   border-radius: 60%;

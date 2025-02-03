@@ -55,7 +55,7 @@ export default {
 <style scoped>
 .info-container {
   text-align: center;
-  /* padding: 10px; */
+  padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
 }

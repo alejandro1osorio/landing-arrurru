@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="title">Momento del Baño</h1>
+    <h1 class="title">Momento del Masaje</h1>
     <p class="description">Para la piel y pelo del bebé es de gran importancia usar productos limpiadores suaves,
       para mantener las propiedades y características saludables.</p>
     <img src="../assets/otros/baby1.png" alt="Descripción de la imagen" class="corner-image">
@@ -22,7 +22,6 @@ export default {
 
 <style scoped>
 .container {
-  background: #5e434359;
   width: 100%;
   text-align: center;
   box-sizing: border-box;
@@ -55,7 +54,7 @@ export default {
 }
 
 .extra-top-image {
-  width: 120px;
+  width: 470px;
   height: auto;
   object-fit: contain;
 }
@@ -69,23 +68,50 @@ export default {
 }
 
 .extra-image {
-  width: 100px;
+  width: 220px;
   height: auto;
   object-fit: contain;
 }
 
+/* Media query para pantallas y monitores muy grandes */
+@media (min-width: 1920px) {
+  .top-right-image {
+    top: 125px;
+    right: 250px;
+  }
+
+  .bottom-right-images {
+    bottom: 10px;
+    right: 290px;
+  }
+
+  .extra-top-image {
+    width: 520px;
+  }
+}
+
+/* Media query para computadoras portátiles */
 @media (max-width: 1440px) {
   .corner-image {
     height: 600px;
   }
+  .top-right-image {
+    top: 195px;
+    right: 90px;
+  }
+  .bottom-right-images{
+    bottom: 10px;
+    right: 90px;
+  }
   .extra-image {
-    width: 80px;
+    width: 190px;
   }
   .extra-top-image {
-    width: 100px;
+    width: 400px;
   }
 }
 
+/* Media query para tablets medianas */
 @media (max-width: 1024px) {
   .corner-image {
     height: 500px;
@@ -98,6 +124,7 @@ export default {
   }
 }
 
+/* Media query para móviles grandes */
 @media (max-width: 768px) {
   .title {
     font-size: 1.5rem;
@@ -116,6 +143,7 @@ export default {
   }
 }
 
+/* Media query para móviles pequeños */
 @media (max-width: 480px) {
   .corner-image {
     height: 250px;
