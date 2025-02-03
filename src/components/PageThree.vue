@@ -60,7 +60,7 @@ export default {
   align-items: center;
   width: 100%;
   height: 100%;
-  padding: 20px;
+  /* padding: 20px; */
   box-sizing: border-box;
   gap: 20px;
   background-color: #F3F3F3;
