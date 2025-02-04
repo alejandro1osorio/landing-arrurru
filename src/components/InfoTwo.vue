@@ -195,4 +195,21 @@ export default {
     visibility: hidden;
   }
 } 
+
+/* Media query para tablets pequeñas */
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .top-right-image {
+    right: 0;
+  }
+  .extra-top-image {
+    width: 430px;
+  }
+  .bottom-right-images {
+    right: 80px;
+    bottom: 0;
+  }
+  .extra-image {
+    width: 140px;
+  }
+}
 </style>
