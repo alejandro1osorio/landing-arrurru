@@ -150,7 +150,7 @@ export default {
 /* Media query para móviles pequeños */
 @media (max-width: 480px) {
   .container {
-    height: 170vh;
+    height: 164vh;
   }
   .description {
     padding: 0 42px;
