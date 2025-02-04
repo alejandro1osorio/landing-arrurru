@@ -187,7 +187,7 @@ export default {
 }
 
 /* Media query para pantallas pequeñas móviles en horizontal */
- @media (max-width: 900px) and (orientation: landscape) {
+@media (min-width: 900px) and (max-width: 940px) and (orientation: landscape) {
   .top-right-image {
     top: 195px;
     right: 0;
