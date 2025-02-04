@@ -150,11 +150,18 @@ export default {
 /* Media query para móviles pequeños */
 @media (max-width: 480px) {
   .container {
-    height: 150vh;
+    height: 170vh;
   }
   .description {
     padding: 0 42px;
     text-align: justify;
+  }
+  .top-right-image {
+    top: 22%;
+  }
+  .bottom-right-images {
+    bottom: 80px;
+    left: 80px;
   }
   .top-right-image, .bottom-right-images {
     display: grid;
@@ -167,7 +174,7 @@ export default {
   }
   .extra-top-image, .extra-image {
     width: 270px;
-    margin: 0 auto 10px auto;
+    margin: 0 auto -110px auto;
   }
   .corner-image {
     height: 250px;
