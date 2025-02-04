@@ -49,7 +49,7 @@
 .div3 {
   grid-column: span 8;
   grid-row: 3 / span 8;
-  background-color: #90ee90;
+  /* background-color: #90ee90; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +64,7 @@
   /* grid-column: 10 / span 3; */
   grid-column: 9 / span 3;
   grid-row: 3 / span 4;
-  background-color: #ffa07a;
+  /* background-color: #ffa07a; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,13 +92,13 @@
 .div5 {
   grid-column: 9 / span 2;
   grid-row: 7 / span 2;
-  background-color: #9370db;
+  /* background-color: #9370db; */
 }
 
 .div6 {
   grid-column: 11 / span 2;
   grid-row: 7 / span 2;
-  background-color: #f4a460;
+  /* background-color: #f4a460; */
 }
 
 @media (max-width: 768px) {
