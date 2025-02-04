@@ -157,6 +157,8 @@ export default {
     text-align: justify;
   }
   .top-right-image {
+    width: 310px;
+    left: 82px;
     top: 22%;
   }
   .bottom-right-images {
