@@ -189,17 +189,10 @@ export default {
 /* Media query para pantallas pequeñas móviles en horizontal */
 @media (min-width: 900px) and (max-width: 940px) and (orientation: landscape) {
   .top-right-image {
-    top: 195px;
-    right: 0;
-  }
-  .extra-top-image {
-    width: 300px;
+    visibility: hidden;
   }
   .bottom-right-images {
-    right: 30px;
-  }
-  .extra-image {
-    width: 130px;
+    visibility: hidden;
   }
 } 
 </style>
