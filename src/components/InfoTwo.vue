@@ -158,9 +158,12 @@ export default {
   }
   .top-right-image {
     width: 310px;
-    left: 82px;
+    left: 44px;
     top: 22%;
   }
+  .extra-top-image {
+    width: 320px;
+  } /* cambio aquí */
   .bottom-right-images {
     bottom: 80px;
     left: 80px;
