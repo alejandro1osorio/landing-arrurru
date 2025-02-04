@@ -162,7 +162,7 @@ export default {
     top: 22%;
   }
   .extra-top-image {
-    width: 320px;
+    width: 400px;
   } /* cambio aquí */
   .bottom-right-images {
     bottom: 80px;
@@ -187,7 +187,19 @@ export default {
 }
 
 /* Media query para pantallas pequeñas móviles en horizontal */
-/* @media (max-width: 900px) and (orientation: landscape) {
-
-} */
+ @media (max-width: 900px) and (orientation: landscape) {
+  .top-right-image {
+    top: 195px;
+    right: 0;
+  }
+  .extra-top-image {
+    width: 300px;
+  }
+  .bottom-right-images {
+    right: 30px;
+  }
+  .extra-image {
+    width: 130px;
+  }
+} 
 </style>
