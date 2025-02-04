@@ -2,7 +2,7 @@
   <div class="container">
     <h1 class="title">Momento del <strong style="border-bottom: 5px solid #e91e63">Baño</strong></h1>
     <p class="description">Para la piel y pelo del bebé es de gran importancia usar productos limpiadores suaves, <strong style="color: #e91e63;">para mantener las propiedades y características saludables.</strong></p>
-    <img src="../assets/otros/baby2.png" alt="Descripción de la imagen" class="corner-image">
+    <img src="../assets/otros/baby1.png" alt="Descripción de la imagen" class="corner-image">
     <div class="top-right-image">
       <img src="../assets/otros/info-shampoo.png" alt="Imagen superior derecha" class="extra-top-image">
     </div>
@@ -38,7 +38,7 @@ export default {
   font-size: 1.2rem;
   color: #234e76;
   text-align: center;
-  padding: 0 100px; /* Agregué padding a los lados */
+  padding: 0 200px; /* Agregué padding a los lados */
 }
 
 .corner-image {

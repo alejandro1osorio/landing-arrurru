@@ -5,7 +5,7 @@
       incorporen detergentes suaves para <strong style="color: #e91e63;">mantener intacto el manto hidrolipídico</strong> y cremas
 protectoras, que como su nombre lo indica, forman una película protectora frente a las
 agresiones de factores externos<sup>*</sup>.</p>
-    <img src="../assets/otros/baby2.png" alt="Descripción de la imagen" class="corner-image">
+    <img src="../assets/otros/baby3.png" alt="Descripción de la imagen" class="corner-image">
     <div class="top-right-image">
       <img src="../assets/otros/info-shampoo.png" alt="Imagen superior derecha" class="extra-top-image">
     </div>
