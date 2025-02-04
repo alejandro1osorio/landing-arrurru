@@ -1,215 +1,103 @@
 <template>
-  <div class="container">
-    <h1 class="title">Momento del <strong style="border-bottom: 5px solid #e91e63">Masaje</strong></h1>
-    <p class="description">La piel de los recién nacidos experimenta cambios significativos en su entorno tras el nacimiento, y <strong style="color: #e91e63;">su hidratación puede disminuir rápidamente</strong> apenas se da el alumbramiento1. Usar regularmente emolientes <strong style="color: #e91e63;">ayuda a proteger y mantener la salud de la piel del bebé,</strong> reduciendo el riesgo de dermatitis atópica o seborreica, especialmente en bebés con antecedentes familiares de enfermedades cutáneas <sup>1</sup>.</p>
-    <img src="../assets/otros/baby2.png" alt="Descripción de la imagen" class="corner-image">
-    <div class="top-right-image">
-      <img src="../assets/otros/info-shampoo.png" alt="Imagen superior derecha" class="extra-top-image">
+  <div class="parent">
+    <div class="div1">Contenedor 1</div>
+    <div class="div2">Contenedor 2</div>
+    <div class="div3"></div>
+    <div class="div4">
+      <img src="../assets/otros/info-crema.png" alt="Imagen 4" class="large-image" />
     </div>
-    <div class="bottom-right-images">
-      <img src="../assets/logos-sellos/Arrurru (22).png" alt="Imagen extra 1" class="extra-image">
-      <img src="../assets/logos-sellos/Arrurru (23).png" alt="Imagen extra 2" class="extra-image">
+    <div class="div5">
+      <img src="../assets/logos-sellos/Arrurru (22).png" alt="Imagen 5" class="image" />
+    </div>
+    <div class="div6">
+      <img src="../assets/logos-sellos/Arrurru (23).png" alt="Imagen 6" class="image" />
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  name: "InfoTwo",
-};
-</script>
-
 <style scoped>
-.container {
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 5px;
   width: 100%;
-  text-align: center;
-  box-sizing: border-box;
-  position: relative;
+  height: 100vh;
+  padding: 10px;
+  background-color: #f3f3f3;
 }
 
-.title {
-  font-size: 2.6rem;
-  font-weight: 500;
-  margin-bottom: 10px;
-  color: #234e76;
-}
-
-.description {
-  font-size: 1.2rem;
-  color: #234e76;
-  text-align: center;
-  padding: 0 100px; /* Agregué padding a los lados */
-}
-
-.corner-image {
-  display: block;
-  width: auto;
-  height: 700px;
-  object-fit: contain;
-  margin-left: 0;
-}
-
-.top-right-image {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-.extra-top-image {
-  width: 470px;
-  height: auto;
-  object-fit: contain;
-}
-
-.bottom-right-images {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+.div1 {
+  grid-column: 4 / span 6;
+  background-color: #ffcccb;
   display: flex;
-  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
 }
 
-.extra-image {
-  width: 220px;
-  height: auto;
+.div2 {
+  grid-column: 3 / span 8;
+  grid-row-start: 2;
+  background-color: #add8e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.div3 {
+  grid-column: span 8;
+  grid-row: 3 / span 8;
+  /* background-color: #90ee90; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  background-image: url('../assets/otros/baby2.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.div4 {
+  /* grid-column: 10 / span 3; */
+  grid-column: 9 / span 3;
+  grid-row: 3 / span 4;
+  background-color: #ffa07a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.div5, .div6, .div4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  max-width: 95%;
+  max-height: 95%;
   object-fit: contain;
 }
 
-/* Media query para pantallas y monitores muy grandes */
-@media (min-width: 1920px) {
-  .top-right-image {
-    top: 190px;
-    right: 220px;
-  }
-
-  .bottom-right-images {
-    bottom: 10px;
-    right: 290px;
-  }
-
-  .extra-top-image {
-    width: 540px;
-  }
+.large-image {
+  max-width: 140%;
+  max-height: 140%;
+  object-fit: contain;
 }
 
-/* Media query para computadoras portátiles */
-@media (max-width: 1440px) {
-  .corner-image {
-    height: 600px;
-  }
-  .top-right-image {
-    top: 244px;
-    right: 70px;
-  }
-  .bottom-right-images{
-    bottom: 10px;
-    right: 90px;
-  }
-  .extra-image {
-    width: 190px;
-  }
-  .extra-top-image {
-    width: 440px;
-  }
+.div5 {
+  grid-column: 9 / span 2;
+  grid-row: 7 / span 2;
+  background-color: #9370db;
 }
 
-/* Media query para tablets medianas */
-@media (max-width: 1024px) {
-  .corner-image {
-    height: 500px;
-  }
-  .extra-image {
-    width: 70px;
-  }
-  .extra-top-image {
-    width: 90px;
-  }
-}
-
-/* Media query para móviles grandes */
-@media (max-width: 768px) {
-  .title {
-    font-size: 1.5rem;
-  }
-  .description {
-    font-size: 1rem;
-    padding: 0 42px;
-    text-align: justify;
-  }
-  .corner-image {
-    height: 400px;
-  }
-  .extra-image {
-    width: 60px;
-  }
-  .extra-top-image {
-    width: 80px;
-  }
-}
-
-/* Media query para móviles pequeños */
-@media (max-width: 480px) {
-  .container {
-    height: 164vh;
-  }
-  .description {
-    padding: 0 42px;
-    text-align: justify;
-  }
-  .top-right-image {
-    width: 310px;
-    left: 44px;
-    top: 22%;
-  }
-  .extra-top-image {
-    width: 400px;
-  } /* cambio aquí */
-  .bottom-right-images {
-    bottom: 80px;
-    left: 80px;
-  }
-  .top-right-image, .bottom-right-images {
-    display: grid;
-    grid-template-rows: auto auto;
-    justify-content: center;
-    align-items: center;
-    margin-top: 390px;
-
-    text-align: center;
-  }
-  .extra-top-image, .extra-image {
-    width: 270px;
-    margin: 0 auto -110px auto;
-  }
-  .corner-image {
-    height: 250px;
-  }
-}
-
-/* Media query para pantallas pequeñas móviles en horizontal */
-@media (min-width: 900px) and (max-width: 940px) and (orientation: landscape) {
-  .top-right-image {
-    visibility: hidden;
-  }
-  .bottom-right-images {
-    visibility: hidden;
-  }
-} 
-
-/* Media query para tablets pequeñas */
-@media (min-width: 1000px) and (max-width: 1100px) {
-  .top-right-image {
-    right: 0;
-  }
-  .extra-top-image {
-    width: 430px;
-  }
-  .bottom-right-images {
-    right: 80px;
-    bottom: 0;
-  }
-  .extra-image {
-    width: 140px;
-  }
+.div6 {
+  grid-column: 11 / span 2;
+  grid-row: 7 / span 2;
+  background-color: #f4a460;
 }
 </style>
