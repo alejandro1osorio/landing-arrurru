@@ -1,5 +1,5 @@
 <template>
-  <div class="page-grid" style="background: blanchedalmond;">
+  <div class="page-grid">
     <InfoOne />
     <h1 class="page-title"><strong>Shampoo y Baño Líquido</strong> Recién Nacido</h1>
     <div class="image-structure">
@@ -60,6 +60,10 @@
       <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
       <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
     </div>
+
+    <footer>
+      <p class="text-footer">Evaluado en <strong>pieles sensibles</strong></p>
+    </footer>
   </div>
 </template>
 
@@ -83,12 +87,12 @@ export default {
 </script>
 
 <style scoped>
-.info-container {
+/* .info-container {
   text-align: center;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
-}
+} */
 
 .page-grid {
   display: grid;
@@ -266,8 +270,25 @@ button:hover {
   background-color: #7BA0AD;
 }
 
-button.active {
+button:active,
+button:focus {
   background-color: #7BA0AD;
+  color: #fff;
+}
+
+
+footer {
+  background: #7AA0AD; 
+  font-size: 1.5rem;
+  width: 100%; 
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-footer {
+  color: #fff;
 }
 
 @media (max-width: 768px) {

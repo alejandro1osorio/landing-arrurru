@@ -1,5 +1,5 @@
 <template>
-  <div class="page-grid" style="background: blanchedalmond;">
+  <div class="page-grid">
     <InfoTwo />
     <h1 class="page-title"><strong>Crema</strong> Recién Nacido</h1>
     <div class="image-structure">
@@ -37,8 +37,31 @@
         </div>
       </div>
       <!-- Contenedor superior derecho -->
-
     </div>
+
+    <div class="button-group">
+      <button @click="setActiveTab('benefits')">Beneficios</button>
+      <button @click="setActiveTab('usage')">Modo de uso</button>
+      <button @click="setActiveTab('composition')">Composición</button>
+    </div>
+    <div class="content-tab">
+      <p v-if="activeTab === 'benefits'" class="text-tab">
+        La piel del recién nacido requiere de mayor cuidado, por eso Arrurrú Crema Recién Nacido esta
+        formulado especialmente diseñada con Hidrosense (Mezcla única de Jojoba + Biolípido de
+        origen natural en nuestro portafolio) y extracto algodón, que cuidan la delicada piel del bebé,
+        nutriéndola y protegiéndola desde el primer día. <strong style="color: #E4016A;">Hidrata la piel del bebé hasta por 24 horas
+          ayudando a retener su humectación natural.</strong><br>
+        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado. <br>
+        <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
+        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
+      </p>
+      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
+      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+    </div>
+
+    <footer>
+      <p class="text-footer">Con estudio en <strong>pieles sensibles</strong></p>
+    </footer>
   </div>
 </template>
 
@@ -47,7 +70,17 @@ import InfoTwo from './InfoTwo.vue';
 
 export default {
   name: 'PageOne',
-  components: { InfoTwo }
+  components: { InfoTwo },
+  data() {
+    return {
+      activeTab: 'benefits',
+    };
+  },
+  methods: {
+    setActiveTab(tab) {
+      this.activeTab = tab;
+    },
+  },
 };
 </script>
 
@@ -61,7 +94,7 @@ export default {
   height: 100%;
   /* padding: 20px; */
   box-sizing: border-box;
-  gap: 20px;
+  /* gap: 20px; */
   background-color: #F3F3F3;
 }
 
@@ -192,5 +225,70 @@ export default {
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
   border-radius: 100px 100px 35px 100px;
+}
+
+.content-tab {
+  border: 2px solid #E31C79;
+  border-radius: 0px 12px 12px 12px;
+  width: 60%;
+  padding: 20px;
+  background: #F3F3F3;
+}
+
+.content-tab, p {
+  font-weight: 400;
+  color: #214F79;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #DEE5E7;
+  color: #214F79;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  color: white;
+  background-color: #7BA0AD;
+}
+
+button:active,
+button:focus {
+  background-color: #7BA0AD;
+  color: #fff;
+}
+
+
+footer {
+  background: #48CDDE; 
+  font-size: 1.5rem;
+  width: 100%; 
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-footer {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .box {
+    visibility: hidden;
+  }
+
+  .content-tab, p {
+    font-size: 0.9rem;
+  }
 }
 </style>
