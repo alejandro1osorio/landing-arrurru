@@ -1,7 +1,7 @@
 <template>
   <div class="parent">
-    <div class="div1">Contenedor 1</div>
-    <div class="div2">Contenedor 2</div>
+    <div class="div1"><h1>Momento del <strong style="border-bottom: 5px solid #e91e63;">Baño</strong></h1></div>
+    <div class="div2"><p style="font-size: 20px;">Este es un texto de descripción dentro del contenedor 2.</p>$1</div>
     <div class="div3"></div>
     <div class="div4">
       <img src="../assets/otros/info-crema.png" alt="Imagen 4" class="large-image" />
@@ -27,13 +27,18 @@
   background-color: #f3f3f3;
 }
 
+h1 {
+  font-weight: 500;
+  color: #214F79;
+}
+
 .div1 {
   grid-column: 4 / span 6;
-  background-color: #ffcccb;
+  /* background-color: #ffcccb; */
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 1.4em;
 }
 
 .div2 {
@@ -108,6 +113,9 @@
     grid-template-rows: auto;
     gap: 5px;
     height: auto;
+  }
+  h1 {
+    font-size: 1.5em;
   }
   .div3 {
     visibility: hidden;
