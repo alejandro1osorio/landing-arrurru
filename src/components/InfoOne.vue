@@ -1,7 +1,8 @@
 <template>
   <div class="parent">
     <div class="div1"><h1>Momento del <strong style="border-bottom: 5px solid #e91e63;">Baño</strong></h1></div>
-    <div class="div2"><p style="font-size: 20px;">Este es un texto de descripción dentro del contenedor 2.</p>$1</div>
+    <div class="div2"><p style="font-size: 20px;">Para la piel y pelo del bebé es de gran importancia usar productos limpiadores suaves,
+      <strong style="color: #e91e63;">para mantener las propiedades y características saludables.</strong></p></div>
     <div class="div3"></div>
     <div class="div4">
       <img src="../assets/otros/info-crema.png" alt="Imagen 4" class="large-image" />
@@ -44,11 +45,13 @@ h1 {
 .div2 {
   grid-column: 3 / span 8;
   grid-row-start: 2;
-  background-color: #add8e6;
+  /* background-color: #add8e6; */
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  text-align: justify;
+  text-align-last: center;
+  color: #214F79;
 }
 
 .div3 {
@@ -59,7 +62,7 @@ h1 {
   align-items: center;
   justify-content: center;
   font-size: 16px;
-  background-image: url('../assets/otros/baby2.png');
+  background-image: url('../assets/otros/baby1.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,6 +119,9 @@ h1 {
   }
   h1 {
     font-size: 1.5em;
+  }
+  p {
+    padding: 0 27px;
   }
   .div3 {
     visibility: hidden;
