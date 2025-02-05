@@ -1,14 +1,14 @@
 <template>
-  <div class="page-grid">
+  <div class="page-grid" style="background: blanchedalmond;">
     <InfoOne />
-    <h1 class="page-title">Shampoo y Baño Líquido Recién Nacido</h1>
+    <h1 class="page-title"><strong>Shampoo y Baño Líquido</strong> Recién Nacido</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
       <div class="image-container">
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
-            <p>Con Hidrosense (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
+            <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
             <img src="../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" />
             <span class="line right"></span>
           </div>
@@ -25,20 +25,40 @@
         <div>
           <div class="box top-right">
             <img src="../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" />
-            <p style="font-size: 0.7rem;">Libre de parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
+            <p style="font-size: 0.7rem;"><strong>Libre de</strong> parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
             <span class="line left"></span>
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
             <img src="../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" />
             <p>Delicado con los ojos
-              del bebé, no los irrita.</p>
+              del bebé, <strong>no los irrita.</strong></p>
             <span class="line left"></span>
           </div>
         </div>
       </div>
       <!-- Contenedor superior derecho -->
+      
+    </div>
 
+    <div class="button-group">
+      <button @click="setActiveTab('benefits')">Beneficios</button>
+      <button @click="setActiveTab('usage')">Modo de uso</button>
+      <button @click="setActiveTab('composition')">Composición</button>
+    </div>
+    <div class="content-tab">
+      <p v-if="activeTab === 'benefits'" class="text-tab">
+        La piel del recién nacido requiere de mayor cuidado, por eso Arrurrú Crema Recién Nacido esta
+        formulado especialmente diseñada con Hidrosense (Mezcla única de Jojoba + Biolípido de
+        origen natural en nuestro portafolio) y extracto algodón, que cuidan la delicada piel del bebé,
+        nutriéndola y protegiéndola desde el primer día. <strong style="color: #E4016A;">Hidrata la piel del bebé hasta por 24 horas
+          ayudando a retener su humectación natural.</strong><br>
+        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado. <br>
+        <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
+        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
+      </p>
+      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
+      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
     </div>
   </div>
 </template>
@@ -48,7 +68,17 @@ import InfoOne from './InfoOne.vue';
 
 export default {
   name: 'PageOne',
-  components: { InfoOne }
+  components: { InfoOne },
+  data() {
+    return {
+      activeTab: 'benefits',
+    };
+  },
+  methods: {
+    setActiveTab(tab) {
+      this.activeTab = tab;
+    },
+  },
 };
 </script>
 
@@ -75,9 +105,9 @@ export default {
 
 .page-title {
   font-size: 1.8rem;
-  font-weight: bold;
+  font-weight: 300;
   text-align: center;
-  color: #333;
+  color: #214F79;
 }
 
 .image-structure {
@@ -129,6 +159,8 @@ export default {
 }
 
 .box p {
+  font-weight: 500;
+  color: #214F79;
   font-size: 0.8rem; /* Reducido el tamaño del texto */
 }
 
@@ -198,5 +230,53 @@ export default {
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
   border-radius: 100px 100px 35px 100px;
+}
+
+.content-tab {
+  border: 2px solid #E31C79;
+  border-radius: 0px 12px 12px 12px;
+  width: 60%;
+  padding: 20px;
+  background: #F3F3F3;
+}
+
+.content-tab, p {
+  font-weight: 400;
+  color: #214F79;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #DEE5E7;
+  color: #214F79;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  color: white;
+  background-color: #7BA0AD;
+}
+
+button.active {
+  background-color: #7BA0AD;
+}
+
+@media (max-width: 768px) {
+  .box {
+    visibility: hidden;
+  }
+
+  .content-tab, p {
+    font-size: 0.9rem;
+  }
 }
 </style>
