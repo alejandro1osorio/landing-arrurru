@@ -147,4 +147,11 @@ h1 {
     max-height: 90%;
   }
 }
+
+/* Media query para portátiles medianos o pequeños */
+@media (min-width: 1000px) and (max-width: 1400px) {
+  .parent {
+    height: 140vh;
+  }
+}
 </style>

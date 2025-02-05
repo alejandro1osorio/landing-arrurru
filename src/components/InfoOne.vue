@@ -8,10 +8,10 @@
       <img src="../assets/otros/info-crema.png" alt="Imagen 4" class="large-image" />
     </div>
     <div class="div5">
-      <img src="../assets/logos-sellos/Arrurru (22).png" alt="Imagen 5" class="image" />
+      <img src="../assets/logos-sellos/Arrurru (22).png" alt="Imagen 5" class="image bottom-aligned" />
     </div>
     <div class="div6">
-      <img src="../assets/logos-sellos/Arrurru (23).png" alt="Imagen 6" class="image" />
+      <img src="../assets/logos-sellos/Arrurru (23).png" alt="Imagen 6" class="image bottom-aligned" />
     </div>
   </div>
 </template>
@@ -143,6 +143,13 @@ h1 {
   .image {
     max-width: 90%;
     max-height: 90%;
+  }
+}
+
+/* Media query para portátiles medianos o pequeños */
+@media (min-width: 1000px) and (max-width: 1400px) {
+  .parent {
+    height: 125vh;
   }
 }
 </style>
