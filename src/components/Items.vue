@@ -172,4 +172,36 @@ img {
     padding-right: 16px; /* Reducir margen lateral en móviles */
   }
 }
+
+/* responsividad pantallas */
+@media (min-width: 1400px) {
+  /* Estilos para pantallas o monitores muy grandes */
+  .grid-container {
+    padding: 0 230px;
+  }
+
+  .grid-item, h2, p {
+    text-align: justify;
+    text-align-last: center;
+    letter-spacing: -1px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  /* Estilos para pantallas de computadoras portátiles */
+  .grid-container {
+    padding: 0 140px;
+  }
+
+  .text-container, p, small {
+     font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+  /* Estilos para tablets */
+  .grid-container {
+    padding: 0 85px;
+  }
+}
 </style>
