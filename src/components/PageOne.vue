@@ -278,7 +278,7 @@ button:focus {
 
 
 footer {
-  background: #7AA0AD; 
+  background: #7AA0AD; /* #7AA0AD */
   font-size: 1.5rem;
   width: 100%; 
   margin-top: 30px;
