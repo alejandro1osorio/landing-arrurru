@@ -33,23 +33,23 @@
         questions: [
           {
             title: "¿Qué significa que tienen fórmulas avaladas y aprobadas por pediatras?",
-            content: "Nuestras fórmulas han sido evaluadas por expertos pediatras, garantizando seguridad y calidad para el cuidado de tu bebé.",
+            content: "Arrurú la marca experta en el cuidado de bebes felices, ha evaluado todas sus formulaciones siguiendo estrictos protocolos científicos y bajo la supervisión de profesionales dermatólogos y médicos pediatras. Los resultados obtenidos permitieron demostrar la seguridad y eficacia de Arrurrú por lo que todos sus productos son avalados y recomendados por especialistas.",
           },
           {
             title: "¿Todos los productos son libres de parabenos, sal, colorantes, sulfatos y cloruro de sodio adicionados?",
-            content: "Sí, nuestros productos están diseñados sin ingredientes agresivos, cuidando la piel sensible de los bebés.",
+            content: "Todos nuestros productos son libres de parabenos, laureth sulfato de sodio, metilisotiazolinonas, y colorantes adicionados.",
           },
           {
             title: "¿Los productos Arrurrú contienen conservantes?",
-            content: "Utilizamos conservantes aprobados para mantener la frescura de nuestros productos sin comprometer su seguridad.",
+            content: "Sí. Son importantes para garantizar el tiempo de vida útil de los productos. Protegen nuestros productos de microorganismos que afectan sus propiedades organolépticas y su estabilidad. Seleccionamos cuidadosamente nuestros conservantes cerciorándonos de que sean seguros y eficaces para nuestros productos.",
           },
           {
             title: "¿Arrurrú utiliza fragancia en sus productos?",
-            content: "Sí, empleamos fragancias hipoalergénicas especialmente formuladas para bebés, suaves y seguras.",
+            content: "Si, los productos de Arrurrú tienen tiernas y delicadas fragancias. Todas sus formulaciones han sido sometidas a estudios de seguridad que avalan el uso en bebés, demostrando que son hipoalergénicas y dermatológicamente probadas.",
           },
           {
             title: "¿Las toallitas de Arrurrú tienen proteína de leche?",
-            content: "No, nuestras toallitas no contienen proteína de leche, siendo adecuadas para pieles sensibles o alérgicas.",
+            content: "No, ninguna de las toallitas de Arrurrú contienen proteína de leche adicionada en sus formulaciones",
           },
         ],
       };
