@@ -9,13 +9,13 @@
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
             <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
-            <img src="../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" />
+            <img src="../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
             <p>Con extracto de algodón que cuida la piel.</p>
-            <img src="../assets/beneficios-productos/algodon.png" alt="Algodón" />
+            <img src="../assets/beneficios-productos/algodon.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
         </div>
@@ -24,13 +24,13 @@
         
         <div>
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" />
+            <img src="../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p style="font-size: 0.7rem;"><strong>Libre de</strong> Parabenos y Colorantes.</p>
             <span class="line left"></span>
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" />
+            <img src="../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p><strong>Con estudio de irritación dérmica.</strong> Aprobado y recomendado por pediatras y dermatólogos.</p>
             <span class="line left"></span>
           </div>
