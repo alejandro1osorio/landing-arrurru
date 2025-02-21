@@ -46,17 +46,16 @@
     </div>
     <div class="content-tab">
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        La piel del recién nacido requiere de mayor cuidado, por eso Arrurrú Crema Recién Nacido esta
-        formulado especialmente diseñada con Hidrosense (Mezcla única de Jojoba + Biolípido de
-        origen natural en nuestro portafolio) y extracto algodón, que cuidan la delicada piel del bebé,
-        nutriéndola y protegiéndola desde el primer día. <strong style="color: #E4016A;">Hidrata la piel del bebé hasta por 24 horas
-          ayudando a retener su humectación natural.</strong><br>
-        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado. <br>
-        <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
-        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
+        La piel de tu bebé necesita un cuidado especial, ya que, el uso del pañal puede causar irritaciones por el roce. Arrurrú Crema Protectora para la colita del bebé con Hidrosense (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio), contiene óxido de zinc, caléndula y Jojoba natural que protegen la delicada piel del bebé contra la humedad, conservando su humectación natural. <br><br>
+
+        <strong style="color: #E4016A;">•</strong> Protege a la colita de la irritación <br>
+        <strong style="color: #E4016A;">•</strong> Textura Suave <br>
+        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado <br>
+        <strong style="color: #E4016A;">•</strong> Libre de parabenos <br>
+        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé <br>
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Limpie cuidadosamente la piel de su bebé. Aplique suavemente con la yema de los dedos una cantidad suficiente de la crema.</p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Zinc Oxide, Microcrystalline Wax, Petrolatum, Polyglyceryl-2 Dipolyhydroxystearate, Propylene Glycol, Stearic Acid, Cetearyl Isononanoate, Paraffinum Liquidum, Polyglyceryl-3 Diisostearate, Butyrospermum Parkii (Shea Butter), Dicaprylyl Carbonate / Stearalkonium Hectorite / Propylene Carbonate, Magnesium Sulfate, Zinc Stearate, Benzyl Alcohol / Caprylyl Glycol, Bis-Diglyceryl Polyacyladipate-2, Coco-Glucoside / Glyceryl Oleate, Parfum (Fragrance), Simmondsia Chinensis (Jojoba) Seed Oil, Allantoin, Bisabolol, Mannitol / Ammonium Glycyrrhizate / Caffeine / Zinc Gluconate / Aesculus Hippocastanum (Horse Chestnut) Seed Extract, Pentaerythrityl Tetra-di-t-Butyl Hydroxyhydrocinnamate, Calendula Officinalis Flower Extract.</p>
     </div>
 
     <footer>

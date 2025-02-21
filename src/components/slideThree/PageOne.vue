@@ -48,17 +48,22 @@
     </div>
     <div class="content-tab">
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        La piel del recién nacido requiere de mayor cuidado, por eso Arrurrú Crema Recién Nacido esta
-        formulado especialmente diseñada con Hidrosense (Mezcla única de Jojoba + Biolípido de
-        origen natural en nuestro portafolio) y extracto algodón, que cuidan la delicada piel del bebé,
-        nutriéndola y protegiéndola desde el primer día. <strong style="color: #E4016A;">Hidrata la piel del bebé hasta por 24 horas
-          ayudando a retener su humectación natural.</strong><br>
-        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado. <br>
-        <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
-        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
+        Arrurrú trae las nuevas Toallitas Húmedas Suavidad & Humectación con Hidrosense (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio) que cuidan la delicada piel de tu bebé dejándola limpia, suave y humectada, al tiempo que cuidan el medio ambiente gracias a nuestra tela hecha con fibras de origen natural y biodegradables y a nuestro empaque con reducción de más del 11% de plástico3. Libre de alcohol etílico.
+        ¡Incluye practicorte que se adapta a tus necesidades y evita el desperdicio! <br><br>
+
+
+        <strong style="color: #E4016A;">•</strong> pH ideal para la piel del bebé <br>
+        <strong style="color: #E4016A;">•</strong> Libre de parabenos, siliconas, colorantes y sulfatos <br>
+        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado <br>
+        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">
+        <strong>•</strong> Paso 1. Presentación con tapa: Levanta la tapa y remueve el sello cuando se utilice por primera vez. <br>
+        <strong>•</strong> Paso 2. Según tu necesidad, puedes usar una toallita completa o convertirla en dos con nuestro Practi-Corte. <br>
+        <strong>•</strong> Paso 3. Cierra bien la tapa para que las toallitas se mantengan húmedas.
+      </p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Benzyl alcohol / Ethylhexylglycerin, Glycerin, Polysorbate 20, Benzyl Alcohol/ Sodium Benzoate / Potassium Sorbate, Parfum (Fragrance), Acrylates / C10-30 Alkyl Acrylate Crosspolymer, Tetrasodium EDTA, Tris (Tetramethylhydroxypiperidinol)Citrate, Cocamidopropyl Betaine, Coco-Glucoside / Glyceryl Oleate, Jojoba Wax PEG-120 Esters, Mannitol / Ammonium Glycyrrhizate / Caffeine / Zinc Gluconate / Aesculus Hippocastanum (Horse Chestnut) Seed Extract, Sodium Hydroxide.
+      </p>
     </div>
 
     <footer>
