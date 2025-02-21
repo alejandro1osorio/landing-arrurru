@@ -23,19 +23,17 @@
 // Importamos los componentes de las páginas
 import PageOne from '../components/slideThree/PageOne.vue';
 import PageTwo from '../components/slideThree/PageTwo.vue';
-import PageThree from '../components/slideThree/PageThree.vue';
 
 export default {
   name: 'Slider',
   components: {
     PageOne,
     PageTwo,
-    PageThree,
   },
   data() {
     return {
       currentPage: 0, // Página inicial
-      pages: ['PageOne', 'PageTwo', 'PageThree'], // Lista de componentes
+      pages: ['PageOne', 'PageTwo'], // Lista de componentes
     };
   },
   methods: {
