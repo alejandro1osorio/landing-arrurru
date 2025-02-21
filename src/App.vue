@@ -9,6 +9,10 @@
     <Items />
     <InfoOne />
     <Slider />
+
+    <InfoTwo />
+    <SliderTwo />
+
     <Benefits />
     <Blog />
     <FAQ />
@@ -20,8 +24,13 @@
 import Hero from "./components/Hero.vue";
 import Differences from "./components/Differences.vue";
 import Items from "./components/Items.vue";
+/* tema 1*/
 import InfoOne from "./components/InfoOne.vue";
 import Slider from "./components/Slider.vue";
+
+/* tema 2 */
+import InfoTwo from "./components/InfoTwo.vue";
+import SliderTwo from "./components/SliderTwo.vue";
 
 import Benefits from "./components/Benefits.vue";
 import Blog from "./components/Blog.vue"
@@ -34,8 +43,13 @@ export default {
     Hero,
     Differences,
     Items,
+    /* tema 1 */
     InfoOne, 
     Slider,
+    /* tema 2 */
+    InfoTwo,
+    SliderTwo,
+
     Benefits,
     Blog,
     FAQ,
