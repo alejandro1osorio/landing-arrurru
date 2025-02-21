@@ -1,5 +1,5 @@
 <template>
-    <div class="faq-container">
+    <div class="faq-container" id="faq">
       <h2 class="faq-title">
         Preguntas <span class="highlight">Frecuentes</span>
       </h2>

@@ -6,32 +6,39 @@
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
       <div class="image-container">
-        <div class="container-item">
+        <div class="container-item" style="transform: translate(15%, 10px);">
           <div class="box top-left" style="flex-direction: row;">
-            <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
-            <img src="../../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
+            <p>Libre de <strong>Parabenos</strong></p>
+            <img src="../../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" style="z-index: 2; transform: translate(46%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
+
+          <div class="box top-left" style="flex-direction: row;">
+            <p>Con estudio de sensibilización e irritación dérmica</p>
+            <img src="../../assets/beneficios-productos/irritacion.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
+            <span class="line right"></span>
+          </div>
+
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p>Con extracto de algodón que cuida la piel.</p>
+            <p>Aprobado y recomendado por pediatras y dermatólogos</p>
             <img src="../../assets/beneficios-productos/algodon.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
         </div>
         
-        <img src="../../assets/productos/crema3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 6%;"/>
+        <img src="../../assets/productos/crema3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 20%;"/>
         
-        <div>
+        <div style="transform: translate(-15%, 10px);">
           <div class="box top-right">
             <img src="../../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
-            <p style="font-size: 0.7rem;"><strong>Libre de</strong> Parabenos y Colorantes.</p>
+            <p style="font-size: 0.7rem;"><strong>Con Hidrosense</strong> (mezcla de Jojoba y Biolipido de origen natural) <strong>que hidrata y protege.</strong></p>
             <span class="line left"></span>
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
             <img src="../../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
-            <p><strong>Con estudio de irritación dérmica.</strong> Aprobado y recomendado por pediatras y dermatólogos.</p>
+            <p>Con <strong>Oxido de Zinc al 15%, Caléndula y Jojoba natural.</strong> Con <strong>Alantoína, Bisabolol  y Complejo calmante</strong></p>
             <span class="line left"></span>
           </div>
         </div>
@@ -128,7 +135,7 @@ export default {
 }
 
 .image-container img {
-  max-width: 100%;
+  max-width: 160%;
   height: auto;
   border-radius: 10px;
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
@@ -201,7 +208,7 @@ export default {
   flex-direction: row-reverse; /* Imagen a la derecha */
   padding-left: 20px;
   border-radius: 57px 59px 59px 17px;
-  margin-bottom: 50%;
+  margin-bottom: 8%;
 }
 
 .bottom-left {
@@ -216,7 +223,7 @@ export default {
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
   border-radius: 100px 100px 35px 100px;
-  margin-bottom: 50%;
+  margin-bottom: 8%;
 }
 
 .bottom-right {

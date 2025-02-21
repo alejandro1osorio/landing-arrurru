@@ -1,5 +1,5 @@
 <template>
-  <div class="parent">
+  <div class="parent" id="cuidado">
     <div class="div1">
       <div class="title-container">
         <h1 class="title">Momento del <br><strong>Cuidado de la <strong style="border-bottom: 5px solid #e91e63;">Colita</strong></strong></h1>

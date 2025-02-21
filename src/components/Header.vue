@@ -7,16 +7,16 @@
           <a href="#" class="nav-link active">Inicio</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Baño</a>
+          <a href="#bano" class="nav-link">Baño</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Masaje</a>
+          <a href="#masaje" class="nav-link">Masaje</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Cuidado de la Colita</a>
+          <a href="#cuidado" class="nav-link">Cuidado de la Colita</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">Preguntas Frecuentes</a>
+          <a href="#faq" class="nav-link">Preguntas Frecuentes</a>
         </li>
       </ul>
       <div class="menu-toggle" @click="toggleMenu" v-if="isMobile">
