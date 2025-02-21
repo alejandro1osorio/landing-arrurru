@@ -1,6 +1,6 @@
 <template>
   <div class="page-grid">
-    <InfoTwo />
+    <!-- <InfoTwo /> -->
     <h1 class="page-title"><strong>Crema</strong> Recién Nacido</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
@@ -66,11 +66,11 @@
 </template>
 
 <script>
-import InfoTwo from './InfoTwo.vue';
+/* import InfoTwo from './InfoTwo.vue'; */
 
 export default {
   name: 'PageOne',
-  components: { InfoTwo },
+  /* components: { InfoTwo }, */
   data() {
     return {
       activeTab: 'benefits',

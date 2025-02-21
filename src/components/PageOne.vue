@@ -1,6 +1,6 @@
 <template>
   <div class="page-grid">
-    <InfoOne />
+    <!-- <InfoOne /> -->
     <h1 class="page-title"><strong>Shampoo y Baño Líquido</strong> Recién Nacido</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
@@ -68,11 +68,11 @@
 </template>
 
 <script>
-import InfoOne from './InfoOne.vue';
+/* import InfoOne from './InfoOne.vue'; */
 
 export default {
   name: 'PageOne',
-  components: { InfoOne },
+  /* components: { InfoOne }, */
   data() {
     return {
       activeTab: 'benefits',

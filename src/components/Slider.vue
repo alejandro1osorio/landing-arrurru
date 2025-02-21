@@ -78,7 +78,7 @@ export default {
 
 .nav-button {
   position: absolute;
-  top: 70%;
+  top: 34%;
   transform: translateY(-50%);
   background-color: rgba(255, 192, 203, 0.8);
   border: none;

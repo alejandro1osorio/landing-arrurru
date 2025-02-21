@@ -1,6 +1,6 @@
 <template>
   <div class="page-grid">
-    <InfoThree />
+    <!-- <InfoThree /> -->
     <h1 class="page-title"><strong>Toallitas</strong> Húmedas</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
@@ -67,11 +67,11 @@
 </template>
 
 <script>
-import InfoThree from './InfoThree.vue';
+/* import InfoThree from './InfoThree.vue'; */
 
 export default {
   name: 'PageOne',
-  components: { InfoThree },
+  /* components: { InfoThree }, */
   data() {
     return {
       activeTab: 'benefits',
