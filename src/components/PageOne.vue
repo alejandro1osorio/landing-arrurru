@@ -57,8 +57,9 @@
         <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
         <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Aplica la cantidad necesaria de shampoo y baño líquido en todo el cuerpo y cabeza de tu bebé con la mano o una suave esponja. Masajea delicadamente y enjuaga.
+      </p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Cocamidopropyl Betaine / Aqua (Water) / Sodium Methyl Cocoyl Taurate, Benzyl Alcohol / Sodium Benzoate / Potassium Sorbate, Jojoba Wax PEG-120 Esters, Coco-Glucoside / Glyceryl Oleate, Glycol Distearate / Laureth-4 / Cocamidopropyl Betaine, Polyquaternium–7, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Benzyl Alcohol / Ethylhexylglycerin, Glycerin, Parfum (Fragrance), PEG 150–Distearate, Sodium Gluconate, Polyquaternium–10, Mannitol / Ammonium Glycyrrhizate / Caffeine / Zinc Gluconate / Aesculus Hippocastanum (Horse Chestnut) Seed Extract, Glycerin / Aqua (Water) / Gossypium Herbaceum (Cotton) Seed Extract, Sodium Hydroxide</p>
     </div>
 
     <footer>

@@ -47,17 +47,14 @@
     </div>
     <div class="content-tab">
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        La piel del recién nacido requiere de mayor cuidado, por eso Arrurrú Crema Recién Nacido esta
-        formulado especialmente diseñada con Hidrosense (Mezcla única de Jojoba + Biolípido de
-        origen natural en nuestro portafolio) y extracto algodón, que cuidan la delicada piel del bebé,
-        nutriéndola y protegiéndola desde el primer día. <strong style="color: #E4016A;">Hidrata la piel del bebé hasta por 24 horas
-          ayudando a retener su humectación natural.</strong><br>
-        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado. <br>
-        <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
-        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
+        La hora del baño es uno de los momentos más importantes para estimular el vínculo afectivo con tu bebé. Además, es clave para el cuidado de su delicada piel. Arrurrú Baño Liquido Suavidad & Humectación con Hidrosense <strong style="color: #E4016A;">(Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio),</strong> cuida la delicada piel del bebé mientras la limpia e hidrata con ingredientes que ayudan a mantener su humectación natural, dejando un delicioso aroma que transmitirán esa sensación de caricia y cuidado que quieres para tu bebé. <br>
+        <strong style="color: #E4016A;">•</strong> Delicado con los ojos del bebé, no los irrita <br>
+        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado <br>
+        <strong style="color: #E4016A;">•</strong> Libre de parabenos, siliconas, sal, sulfatos y colorantes <br>
+        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé 
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Aplica la cantidad necesaria de baño líquido en todo el cuerpo de tu bebé con la mano o una suave esponja. Masajea delicadamente y enjuaga.</p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Cocamidopropyl Betaine / Aqua (Water) / Sodium Methyl Cocoyl Taurate, Benzyl Alcohol / Sodium Benzoate / Potassium Sorbate, Coco-Glucoside / Glyceryl Oleate, Glycerin, Glycol Distearate / Laureth-4 / Cocamidopropyl Betaine, Jojoba Wax PEG-120 Esters, Parfum (Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Benzyl Alcohol / Ethylhexylglycerin, Sodium Gluconate, Mannitol / Ammonium Glycyrrhizate / Caffeine / Zinc Gluconate / Aesculus Hippocastanum (Horse Chestnut) Seed Extract, PEG-150 Distearate, Polyquaternium-10, Sodium Hydroxide</p>
     </div>
 
     <footer>

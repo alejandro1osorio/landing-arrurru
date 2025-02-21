@@ -46,17 +46,14 @@
     </div>
     <div class="content-tab">
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        La piel del recién nacido requiere de mayor cuidado, por eso Arrurrú Crema Recién Nacido esta
-        formulado especialmente diseñada con Hidrosense (Mezcla única de Jojoba + Biolípido de
-        origen natural en nuestro portafolio) y extracto algodón, que cuidan la delicada piel del bebé,
-        nutriéndola y protegiéndola desde el primer día. <strong style="color: #E4016A;">Hidrata la piel del bebé hasta por 24 horas
-          ayudando a retener su humectación natural.</strong><br>
-        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado. <br>
-        <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
-        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
+        El delicado cuero cabelludo del bebé necesita cuidado especializado. Arrurrú Shampoo Suavidad & Humectación, contiene Hidrosense Hidrata la piel del bebé hasta por 24 horas ayudando a retener su humectación natural. (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio), <strong style="color: #E4016A;">que cuida la delicada piel del bebé mientras hidrata y limpia suavemente el cabello, </strong>dejándolo brillante y con un aroma que transmitirá sensación de caricia y cuidado para tu bebé. <br>
+        <strong style="color: #E4016A;">•</strong> Delicado con los ojos del bebé, no los irrita <br>
+        <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado <br>
+        <strong style="color: #E4016A;">•</strong> Libre de parabenos, sal, colorantes y sulfatos <br>
+        <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé 
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Aplica la cantidad necesaria de Shampoo en el cabello de tu bebé. Masajea suavemente y enjuaga.</p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Cocamidopropyl Betaine / Aqua (Water) / Sodium Methyl Cocoyl Taurate, Benzyl Alcohol / Sodium Benzoate / Potassium Sorbate, Coco-Glucoside / Glyceryl Oleate, Polyquaternium-7, Jojoba Wax PEG-120 Esters, Glycerin, Glycol Distearate / Laureth-4 / Cocamidopropyl Betaine, Parfum (Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Benzyl Alcohol / Ethylhexylglycerin, Sodium Gluconate, Polyquaternium-10, Mannitol / Ammonium Glycyrrhizate / Caffeine / Zinc Gluconate / Aesculus Hippocastanum (Horse Chestnut) Seed Extract, PEG-150 Distearate, Sodium Hydroxide</p>
     </div>
 
     <footer>
