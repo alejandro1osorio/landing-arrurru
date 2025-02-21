@@ -142,9 +142,9 @@ export default {
   .div1 .description {
     font-size: 1em;
     max-width: 100%;
-    padding: 0 38px;
-    text-align: justify;
-    word-spacing: 2px;
+    padding: 0 30px;
+    text-align: left;
+    word-spacing: 1px;
   }
 
   .div2 {
