@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
     <!-- <InfoTwo /> -->
-    <h1 class="page-title"><strong>Crema</strong> Recién Nacido</h1>
+    <h1 class="page-title"><strong>Shampoo y Baño Líquido</strong> Recién Nacido</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
@@ -20,7 +20,7 @@
           </div>
         </div>
         
-        <img src="../assets/productos/crema.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 6%;"/>
+        <img src="../assets/productos/shampoo2.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 6%;"/>
         
         <div>
           <div class="box top-right">

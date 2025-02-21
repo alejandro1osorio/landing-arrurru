@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
     <!-- <InfoThree /> -->
-    <h1 class="page-title"><strong>Shampoo y Baño Líquido</strong> Recién Nacido</h1>
+    <h1 class="page-title"><strong>Toallitas</strong> Húmedas</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
@@ -9,28 +9,28 @@
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
             <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
-            <img src="../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
+            <img src="../../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
             <p>Con tela <strong>100% libre de plástico.</strong> Fibras naturales.</p>
-            <img src="../assets/beneficios-productos/algodon.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);"/>
+            <img src="../../assets/beneficios-productos/algodon.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);"/>
             <span class="line right"></span>
           </div>
         </div>
         
-        <img src="../assets/productos/shampoo3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 18%;"/>
+        <img src="../../assets/productos/toallitas-humedas.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 18%;"/>
         
         <div class="container-item">
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
+            <img src="../../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p style="font-size: 0.7rem;">Sin Alcohol, parabenos, siliconas, colorante y sulfatos.</p>
             <span class="line left"></span>
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);"/>
+            <img src="../../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);"/>
             <p><strong>Con estudio de sensibilización e irritación dérmica.</strong> Aprobado y recomendado por pediatras y dermatólogos.</p>
             <span class="line left"></span>
           </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
-    <!-- <InfoThree /> -->
-    <h1 class="page-title"><strong>Shampoo y Baño Líquido</strong> Recién Nacido</h1>
+    <!-- <InfoOne /> -->
+    <h1 class="page-title"><strong>Toallitas</strong> Húmedas</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
@@ -9,35 +9,36 @@
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
             <p>Con <strong>Hidrosense</strong> (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</p>
-            <img src="../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
+            <img src="../../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);"/>
             <span class="line right"></span>
           </div>
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p>Con tela <strong>100% libre de plástico.</strong> Fibras naturales.</p>
-            <img src="../assets/beneficios-productos/algodon.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);"/>
+            <p>Con extracto de algodón que cuida la piel.</p>
+            <img src="../../assets/beneficios-productos/algodon.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
         </div>
         
-        <img src="../assets/productos/shampoo3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 18%;"/>
+        <img src="../../assets/productos/toallitas-humedas.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 26px;"/>
         
-        <div class="container-item">
+        <div>
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
-            <p style="font-size: 0.7rem;">Sin Alcohol, parabenos, siliconas, colorante y sulfatos.</p>
+            <img src="../../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
+            <p style="font-size: 0.7rem;"><strong>Libre de</strong> parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
             <span class="line left"></span>
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);"/>
-            <p><strong>Con estudio de sensibilización e irritación dérmica.</strong> Aprobado y recomendado por pediatras y dermatólogos.</p>
+            <img src="../../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
+            <p>Delicado con los ojos
+              del bebé, <strong>no los irrita.</strong></p>
             <span class="line left"></span>
           </div>
         </div>
       </div>
       <!-- Contenedor superior derecho -->
-
+      
     </div>
 
     <div class="button-group">
@@ -61,17 +62,17 @@
     </div>
 
     <footer>
-      <p class="text-footer"><strong>Sin alcohol ni proteína de leche</strong></p>
+      <p class="text-footer">Evaluado en <strong>pieles sensibles</strong></p>
     </footer>
   </div>
 </template>
 
 <script>
-/* import InfoThree from './InfoThree.vue'; */
+/* import InfoOne from './InfoOne.vue'; */
 
 export default {
   name: 'PageOne',
-  /* components: { InfoThree }, */
+  /* components: { InfoOne }, */
   data() {
     return {
       activeTab: 'benefits',
@@ -86,6 +87,13 @@ export default {
 </script>
 
 <style scoped>
+/* .info-container {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+} */
+
 .page-grid {
   display: grid;
   grid-template-rows: auto 1fr;
@@ -93,7 +101,7 @@ export default {
   align-items: center;
   width: 100%;
   height: 100%;
-  /* padding: 20px; */
+  /* padding: 0 20px; */
   box-sizing: border-box;
   /* gap: 20px; */
   background-color: #F3F3F3;
@@ -270,7 +278,7 @@ button:focus {
 
 
 footer {
-  background: #B2C2D9; /* #B2C2D9 */
+  background: #7AA0AD; /* #7AA0AD */
   font-size: 1.5rem;
   width: 100%; 
   margin-top: 30px;
