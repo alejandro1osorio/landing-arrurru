@@ -15,7 +15,7 @@
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
             <p>Con extracto de algodón que cuida la piel.</p>
-            <img src="../../assets/beneficios-productos/algodon.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
+            <img src="../../assets/beneficios-productos/hoja.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
         </div>
@@ -30,7 +30,7 @@
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
+            <img src="../../assets/beneficios-productos/sensibilizacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p>Delicado con los ojos
               del bebé, <strong>no los irrita.</strong></p>
             <span class="line left"></span>

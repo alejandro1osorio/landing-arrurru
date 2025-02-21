@@ -57,8 +57,8 @@
         <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
         <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Aplica una pequeña cantidad de la crema en la mano y deslizar en todo el cuerpo de tu bebe con un suave y estimulante masaje después del baño.</p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Glycerin, Cetearyl Alcohol, Dicaprylyl Carbonate, Glyceryl Stearate / Ceteareth - 20 / Ceteareth - 12 / Cetearyl Alcohol / Cetyl Palmitate, Octyl Dodecanol, Butyrospermum Parkii (Shea Butter), Benzyl Alcohol / Sodium Benzoate / Potassium Sorbate, Dimethicone, Pentaerythrityl Distearate, Parfum (Fragrance), Carbomer, Coco-Glucoside / Glyceryl Oleate, Simmondsia Chinensis (Jojoba) Seed Oil, Sodium Gluconate, Sodium Hydroxide, Mannitol / Ammonium Glycyrrhizate / Caffeine / Zinc Gluconate / Aesculus Hippocastanum (Horse Chestnut) Seed Extract, Xanthan Gum, Glycerin / Aqua (Water)  / Gossypium Herbaceum (Cotton) Seed Extract.</p>
     </div>
 
     <footer>

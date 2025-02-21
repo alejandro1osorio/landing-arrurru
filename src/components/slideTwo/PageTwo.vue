@@ -46,17 +46,14 @@
     </div>
     <div class="content-tab">
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        La piel del recién nacido requiere de mayor cuidado, por eso Arrurrú Crema Recién Nacido esta
-        formulado especialmente diseñada con Hidrosense (Mezcla única de Jojoba + Biolípido de
-        origen natural en nuestro portafolio) y extracto algodón, que cuidan la delicada piel del bebé,
-        nutriéndola y protegiéndola desde el primer día. <strong style="color: #E4016A;">Hidrata la piel del bebé hasta por 24 horas
-          ayudando a retener su humectación natural.</strong><br>
+        La piel de tu bebé es muy sensible y delicada, por lo que necesita un cuidado especial. Arrurrú Crema Suavidad & Humectación contiene Hidrosense <strong style="color: #E4016A;">(Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio),</strong> que cuida la delicada piel del bebé ayudando a protegerla y retener la humedad natural. SU delicada fórmula, nutre e hidrata hasta por 24 horas, con un un delicioso aroma que transmitirán esa sensación de caricia y cuidado que quieres para tu bebé. Rápida absorción. <br>
+
         <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado. <br>
         <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
         <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
       </p>
-      <p v-if="activeTab === 'usage'">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dignissimos.</p>
-      <p v-if="activeTab === 'composition'">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, obcaecati?</p>
+      <p v-if="activeTab === 'usage'">Aplica una pequeña cantidad de la crema en la mano y desliza en todo el cuerpo de tu bebe con un suave y estimulante masaje después del baño.</p>
+      <p v-if="activeTab === 'composition'">Aqua (Water), Glycerin, Cetearyl Alcohol, Dicaprylyl Carbonate, Glyceryl Stearate / Ceteareth - 20 / Ceteareth - 12 / Cetearyl Alcohol / Cetyl Palmitate, Octyl Dodecanol, Butyrospermum Parkii (Shea Butter), Benzyl Alcohol / Sodium Benzoate / Potassium Sorbate, Coco-Glucoside / Glyceryl Oleate, Dimethicone, Pentaerythrityl Distearate, Parfum (Fragrance), Carbomer, Simmondsia Chinensis (Jojoba) Seed Oil, Sodium Gluconate, Sodium Hydroxide, Xanthan Gum.</p>
     </div>
 
     <footer>
