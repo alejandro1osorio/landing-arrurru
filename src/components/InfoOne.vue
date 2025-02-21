@@ -10,7 +10,7 @@
       <img src="../assets/otros/baby1.png" alt="Placeholder Image" class="image" />
     </div>
     <div class="div3">
-      <img src="../assets/otros/info-crema.png" alt="Placeholder Image" class="image-centered" />
+      <img src="../assets/otros/info-shampoo.png" alt="Placeholder Image" class="image-centered" />
     </div>
     <div class="div4">
       <img src="../assets/logos-sellos/grupo-sellos.png" alt="Placeholder Image" class="image-centered" />
