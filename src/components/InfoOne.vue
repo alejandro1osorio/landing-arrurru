@@ -128,7 +128,7 @@ export default {
   .parent {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
-    height: 120vh;
+    height: 130vh;
   }
 
   .div1 {
