@@ -143,7 +143,7 @@ export default {
     font-size: 1em;
     max-width: 100%;
     padding: 0 30px;
-    text-align: left;
+    text-align: center;
     word-spacing: 1px;
   }
 
