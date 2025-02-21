@@ -1,159 +1,175 @@
 <template>
   <div class="parent">
-    <div class="div1"><h1>Momento del <br><strong>Cuidado de la <strong style="border-bottom: 5px solid #e91e63;">Colita</strong></strong></h1></div>
+    <div class="div1">
+      <div class="title-container">
+        <h1 class="title">Momento del <br><strong>Cuidado de la <strong style="border-bottom: 5px solid #e91e63;">Colita</strong></strong></h1>
+        <p class="description">
+          El área del pañal suele irritarse con facilidad, por lo que es clave el uso de toallitas que <br> incorporen detergentes suaves para <strong style="color: #e91e63;">mantener intacto el manto hidrolipídico</strong> y cremas <br> protectoras, que como su nombre lo indica, forman una película protectora frente a las <br> agresiones de factores externos<sup>*</sup> . 
+        </p>
+      </div>
+    </div>
     <div class="div2">
-      <p style="font-size: 20px;">
-        El área del pañal suele irritarse con facilidad, por lo que es clave el uso de toallitas que incorporen detergentes suaves para <strong style="color: #e91e63;">mantener intacto el manto hidrolipídico</strong> y cremas protectoras, que como su nombre lo indica, forman una película protectora frente a las agresiones de factores externos<sup>*</sup>.
-      </p>
+      <img src="../assets/otros/baby3.png" alt="Placeholder Image" class="image" />
     </div>
-    <div class="div3"></div>
+    <div class="div3">
+      <img src="../assets/otros/info-toallas.png" alt="Placeholder Image" class="image-centered product" />
+    </div>
     <div class="div4">
-      <img src="../assets/otros/info-crema.png" alt="Imagen 4" class="large-image" />
-    </div>
-    <div class="div5">
-      <img src="../assets/logos-sellos/Arrurru (22).png" alt="Imagen 5" class="image" />
-    </div>
-    <div class="div6">
-      <img src="../assets/logos-sellos/Arrurru (23).png" alt="Imagen 6" class="image" />
+      <img src="../assets/logos-sellos/grupo-sellos.png" alt="Placeholder Image" class="image-centered" />
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "GridLayout"
+};
+</script>
 
 <style scoped>
 .parent {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  gap: 5px;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   width: 100%;
-  height: 110vh;
-  padding: 10px;
-  background-color: #f3f3f3;
-}
-
-h1 {
-  font-weight: 500;
-  color: #214F79;
+  height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .div1 {
-  grid-column: 4 / span 6;
-  /* background-color: #ffcccb; */
+  grid-area: 1 / 1 / 2 / 13;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.4em;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  position: relative;
   text-align: center;
 }
 
-.div2 {
-  grid-column: 3 / span 8;
-  grid-row-start: 2;
-  /* background-color: #add8e6; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.div1 .title {
+  font-size: 2em;
+  font-weight: 300;
+  color: #214F79;
+  margin-bottom: 0.5em;
+}
+
+.div1 .description {
+  font-size: 1.2em;
+  color: #214F79;
+  max-width: 100%;
+  padding: 0 10px;
   text-align: justify;
   text-align-last: center;
-  color: #214F79;
 }
 
-.div3 {
-  grid-column: span 8;
-  grid-row: 3 / span 8;
-  /* background-color: #90ee90; */
+.div2 {
+  grid-area: 2 / 1 / 6 / 8;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
-  background-image: url('../assets/otros/baby3.png');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
 }
 
-.div4 {
-  /* grid-column: 10 / span 3; */
-  grid-column: 9 / span 3;
-  grid-row: 3 / span 4;
-  /* background-color: #ffa07a; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-}
-
-.div5, .div6, .div4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image {
-  max-width: 95%;
-  max-height: 95%;
+.div2 .image {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
-.large-image {
+.div3 {
+  grid-area: 2 / 9 / 5 / 12;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  height: 100%;
+  margin: 0;
+}
+
+.div3 .image-centered {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.div4 {
+  grid-area: 5 / 8 / 6 / 13;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  height: 80px;
+  margin: 0;
+}
+
+.div4 .image-centered {
   max-width: 140%;
   max-height: 140%;
   object-fit: contain;
 }
 
-.div5 {
-  grid-column: 9 / span 2;
-  grid-row: 7 / span 2;
-  /* background-color: #9370db; */
+@media screen and (min-width: 1400px) {
+  
+  .div4 {
+    height: 110px;
+  }
 }
 
-.div6 {
-  grid-column: 11 / span 2;
-  grid-row: 7 / span 2;
-  /* background-color: #f4a460; */
-}
-
-@media (max-width: 768px) {
+@media screen and (min-width: 1024px) and (max-width: 1399px) {
+  .div4 {
+    height: 90px;
+  }
   .parent {
-    display: grid;
+    height: 110vh;
+  }
+
+  .div3 .product {
+    max-width: 180%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parent {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
-    gap: 5px;
-    height: auto;
+    height: 155vh;
   }
-  h1 {
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 7;
+  }
+
+  .div1 .title {
     font-size: 1.5em;
   }
-  p {
-    padding: 0 27px;
-  }
-  .div3 {
-    visibility: hidden;
-  }
-  .div1, .div2, .div3 {
-    grid-column: span 6;
-    width: 100%;
-  }
-  .div4, .div5, .div6 {
-    grid-column: span 5;
-    grid-row: auto;
-    width: 100%;
-    margin-left: 36px;
-  }
-  .large-image {
-    max-width: 120%;
-    max-height: 120%;
-  }
-  .image {
-    max-width: 90%;
-    max-height: 90%;
-  }
-}
 
-/* Media query para portátiles medianos o pequeños */
-@media (min-width: 1000px) and (max-width: 1400px) {
-  .parent {
-    height: 146vh;
+  .div1 .description {
+    font-size: 1em;
+    max-width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    word-spacing: 1px;
+  }
+
+  .div2 {
+    grid-area: 2 / 1 / 3 / 7;
+  }
+
+  .div3 {
+    grid-area: 3 / 1 / 4 / 7;
+  }
+
+  .div4 {
+    grid-area: 4 / 1 / 5 / 7;
   }
 }
 </style>
