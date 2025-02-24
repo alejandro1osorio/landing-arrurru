@@ -4,7 +4,7 @@
     <nav class="header-nav">
       <ul class="nav-list" v-if="isMenuOpen || !isMobile">
         <li class="nav-item">
-          <a href="#" class="nav-link active">Inicio</a>
+          <a href="#inicio" class="nav-link active">Inicio</a>
         </li>
         <li class="nav-item">
           <a href="#bano" class="nav-link">Baño</a>

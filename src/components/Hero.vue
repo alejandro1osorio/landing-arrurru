@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section class="hero" id="inicio">
     <Header />
     <img src="../assets/logos-sellos/logo-arrurru.png" alt="Centered Image" class="centered-image" />
   </section>

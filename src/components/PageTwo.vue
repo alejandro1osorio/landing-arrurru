@@ -9,7 +9,7 @@
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
             <p>Libre de <strong>Parabenos,</strong> Colorantes, Sulfatos, Sal y Siliconas<sup>*</sup></p>
-            <img src="../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
+            <img src="../assets/beneficios-productos/hoja.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
           <div class="box top-left" style="flex-direction: row;">
