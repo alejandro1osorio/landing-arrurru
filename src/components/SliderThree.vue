@@ -99,10 +99,10 @@ export default {
 /* Responsividad */
 @media (max-width: 768px) {
   .nav-button {
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
     font-size: 1rem;
-    top: 68%;
+    top: 24%;
   }
 }
 </style>
