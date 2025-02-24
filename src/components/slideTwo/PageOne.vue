@@ -25,14 +25,13 @@
         <div>
           <div class="box top-right">
             <img src="../../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
-            <p style="font-size: 0.7rem;"><strong>Libre de</strong> parabenos, siliconas, sal (cloruro de sodio adicionado), colorantes (adicionados) y sulfatos.</p>
+            <p style="font-size: 0.7rem;"><strong>Libre de</strong> Parabenos y Colorantes.</p>
             <span class="line left"></span>
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
             <img src="../../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
-            <p>Delicado con los ojos
-              del bebé, <strong>no los irrita.</strong></p>
+            <p><strong>Con estudio de irritación dérmica.</strong> Aprobado y recomendado por pediatras y dermatólogos.</p>
             <span class="line left"></span>
           </div>
         </div>

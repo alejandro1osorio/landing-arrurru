@@ -30,7 +30,7 @@
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
+            <img src="../assets/beneficios-productos/ojo.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p>Delicado con los ojos
               del bebé, <strong>no los irrita.</strong></p>
             <span class="line left"></span>
@@ -293,8 +293,21 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .box {
+  /* .box {
     visibility: hidden;
+  } */
+
+  .image-structure {
+    transform: scale(0.39);
+    margin-top: -182px;
+  }
+
+  .button-group {
+    margin-top: -278px;
+  }
+
+  .content-tab {
+    margin-top: -126px;
   }
 
   .content-tab, p {

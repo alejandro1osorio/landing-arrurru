@@ -9,7 +9,7 @@
         <div class="container-item" style="transform: translate(15%, 10px);">
           <div class="box top-left" style="flex-direction: row;">
             <p>Libre de <strong>Parabenos</strong></p>
-            <img src="../../assets/beneficios-productos/hidrosense.png" alt="Hidrosense" style="z-index: 2; transform: translate(46%, 0%) scale(1.07);" />
+            <img src="../../assets/beneficios-productos/quimicos.png" alt="Hidrosense" style="z-index: 2; transform: translate(46%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
 
@@ -22,7 +22,7 @@
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
             <p>Aprobado y recomendado por pediatras y dermatólogos</p>
-            <img src="../../assets/beneficios-productos/algodon.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
+            <img src="../../assets/beneficios-productos/ojo.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
         </div>
@@ -31,13 +31,13 @@
         
         <div style="transform: translate(-15%, 10px);">
           <div class="box top-right">
-            <img src="../../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
+            <img src="../../assets/beneficios-productos/hidrosense.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p style="font-size: 0.7rem;"><strong>Con Hidrosense</strong> (mezcla de Jojoba y Biolipido de origen natural) <strong>que hidrata y protege.</strong></p>
             <span class="line left"></span>
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../../assets/beneficios-productos/irritacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
+            <img src="../../assets/beneficios-productos/sensibilizacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p>Con <strong>Oxido de Zinc al 15%, Caléndula y Jojoba natural.</strong> Con <strong>Alantoína, Bisabolol  y Complejo calmante</strong></p>
             <span class="line left"></span>
           </div>
