@@ -14,8 +14,8 @@
           </div>
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p>Con extracto de algodón que cuida la piel.</p>
-            <img src="../assets/beneficios-productos/algodon.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
+            <p>Con extracto de algodón.</p>
+            <img src="../assets/beneficios-productos/algodon.png" alt="Algodón" style="z-index: 2; transform: translate(8%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
         </div>

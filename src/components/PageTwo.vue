@@ -9,7 +9,7 @@
         <div class="container-item">
           <div class="box top-left" style="flex-direction: row;">
             <p>Libre de <strong>Parabenos,</strong> Colorantes, Sulfatos, Sal y Siliconas<sup>*</sup></p>
-            <img src="../assets/beneficios-productos/hoja.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
+            <img src="../assets/beneficios-productos/quimicos.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
           <div class="box top-left" style="flex-direction: row;">
@@ -19,8 +19,8 @@
           </div>
           <!-- Contenedor inferior izquierdo -->
           <div class="box bottom-left" style="flex-direction: row;">
-            <p>Con estudio de sensibilización e irritación dérmica</p>
-            <img src="../assets/beneficios-productos/algodon.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
+            <p><strong>Con estudio de sensibilización e irritación dérmica</strong></p>
+            <img src="../assets/beneficios-productos/irritacion.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
         </div>
@@ -29,7 +29,7 @@
         
         <div>
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
+            <img src="../assets/beneficios-productos/hoja.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p style="font-size: 0.7rem;">Con <strong>Jojoba de origen Natural y Glicerina.</strong></p>
             <span class="line left"></span>
           </div>
