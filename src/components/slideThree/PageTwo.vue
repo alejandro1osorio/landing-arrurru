@@ -6,7 +6,7 @@
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
       <div class="image-container">
-        <div class="container-item" style="transform: translate(15%, 10px);">
+        <div class="container-item contenedor-item" style="transform: translate(15%, 10px);">
           <div class="box top-left" style="flex-direction: row;">
             <p>Libre de <strong>Parabenos</strong></p>
             <img src="../../assets/beneficios-productos/quimicos.png" alt="Hidrosense" style="z-index: 2; transform: translate(46%, 0%) scale(1.07);" />
@@ -29,7 +29,7 @@
         
         <img src="../../assets/productos/crema3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 20%;"/>
         
-        <div style="transform: translate(-15%, 10px);">
+        <div class="contenedor-item2" style="transform: translate(-15%, 10px);">
           <div class="box top-right">
             <img src="../../assets/beneficios-productos/hidrosense.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p style="font-size: 0.7rem;"><strong>Con Hidrosense</strong> (mezcla de Jojoba y Biolipido de origen natural) <strong>que hidrata y protege.</strong></p>
@@ -304,6 +304,14 @@ footer {
 
   .content-tab {
     margin-top: -126px;
+  }
+
+  .contenedor-item {
+    transform: translate(44%, 10px) scale(0.70) !important;
+  }
+
+  .contenedor-item2 {
+    transform: translate(-41%, 10px) scale(0.70) !important;
   }
 
   .content-tab, p {
