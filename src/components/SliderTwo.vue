@@ -6,12 +6,12 @@
     </div>
 
     <!-- Botones de navegación -->
-    <button class="nav-button left" @click="prevPage">
+    <button class="nav-button2 left" @click="prevPage">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="hotpink" width="24px" height="24px">
         <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z"/>
       </svg>
     </button>
-    <button class="nav-button right" @click="nextPage">
+    <button class="nav-button2 right" @click="nextPage">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="hotpink" width="24px" height="24px">
         <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"/>
       </svg>
@@ -69,7 +69,7 @@ export default {
   background-color: #553333;
 }
 
-.nav-button {
+.nav-button2 {
   position: absolute;
   top: 34%;
   transform: translateY(-50%);
@@ -88,21 +88,21 @@ export default {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.nav-button.left {
+.nav-button2.left {
   left: 10px;
 }
 
-.nav-button.right {
+.nav-button2.right {
   right: 10px;
 }
 
 /* Responsividad */
 @media (max-width: 768px) {
-  .nav-button {
-    width: 35px;
-    height: 35px;
+  .nav-button2 {
+    width: 20px !important;
+    height: 20px;
     font-size: 1rem;
-    top: 68%;
+    top: 21% !important; 
   }
 }
 </style>
