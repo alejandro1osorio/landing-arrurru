@@ -296,8 +296,21 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .box {
+  /* .box {
     visibility: hidden;
+  } */
+
+  .image-structure {
+    transform: scale(0.39);
+    margin-top: -182px;
+  }
+
+  .button-group {
+    margin-top: -278px;
+  }
+
+  .content-tab {
+    margin-top: -126px;
   }
 
   .content-tab, p {
