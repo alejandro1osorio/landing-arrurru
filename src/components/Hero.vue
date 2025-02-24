@@ -40,6 +40,10 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    height: 64vh;
+  }
+
   .centered-image {
     width: 35%; /* Increase size for smaller screens */
     max-width: 175px;
