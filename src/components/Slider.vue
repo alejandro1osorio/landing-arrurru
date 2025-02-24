@@ -104,7 +104,7 @@ export default {
     height: 20px;
     font-size: 1rem;
     /* transform: translate(2px, -446px); */
-    top: 21% !important;
+    /* top: 21% !important; */
   }
 }
 </style>

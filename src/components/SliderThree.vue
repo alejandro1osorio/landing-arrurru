@@ -102,7 +102,7 @@ export default {
     width: 20px !important;
     height: 20px;
     font-size: 1rem;
-    top: 19% !important;
+    /* top: 19% !important; */
   }
 }
 </style>
