@@ -70,7 +70,7 @@
     </div>
 
     <footer>
-      <p class="text-footer">Con estudio en <strong>pieles sensibles</strong></p>
+      <p class="text-footer">Evaluado en <strong>pieles sensibles</strong></p>
     </footer>
   </div>
 </template>
@@ -291,7 +291,7 @@ button:focus {
 }
 
 footer {
-  background: #48CDDE; /* #48CDDE */
+  background: #7AA0AD; /* #48CDDE */
   font-size: 1.5rem;
   width: 100%; 
   margin-top: 30px;

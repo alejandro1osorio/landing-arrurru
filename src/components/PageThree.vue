@@ -73,7 +73,7 @@
     </div>
 
     <footer>
-      <p class="text-footer"><strong>Sin alcohol ni proteína de leche</strong></p>
+      <p class="text-footer">Evaluado en <strong>pieles sensibles</strong></p>
     </footer>
   </div>
 </template>
@@ -294,7 +294,7 @@ button:focus {
 }
 
 footer {
-  background: #B2C2D9; /* #B2C2D9 */
+  background: #7AA0AD; /* #B2C2D9 */
   font-size: 1.5rem;
   width: 100%; 
   margin-top: 30px;
