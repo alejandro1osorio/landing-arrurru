@@ -25,7 +25,7 @@
         
         <div class="container-item">
           <div class="box top-right">
-            <img src="../assets/beneficios-productos/hoja.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
+            <img src="../assets/beneficios-productos/jojoba.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p style="font-size: 0.7rem;">Con <strong>Jojoba de origen Natural y Glicerina.</strong></p>
             <span class="line left"></span>
           </div>
