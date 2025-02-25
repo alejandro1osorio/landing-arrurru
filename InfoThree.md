@@ -1,34 +1,31 @@
+InfoThree.vue
+
+```
 <template>
-  <div class="parent" id="masaje">
+  <div class="parent" id="cuidado">
     <div class="div1">
       <div class="title-container">
-        <h1 class="title">Momento del <strong style="border-bottom: 5px solid #e91e63;">Masaje</strong></h1>
+        <h1 class="title">Momento del <br><strong>Cuidado de la <strong style="border-bottom: 5px solid #e91e63;">Colita</strong></strong></h1>
         <p class="description">
-          La piel de los recién nacidos experimenta cambios significativos en su entorno tras el <br> nacimiento, y <strong style="color: #e91e63;">su hidratación puede disminuir rápidamente</strong> apenas se da el <br> alumbramiento<sup>1</sup>. Usar regularmente emolientes <strong style="color: #e91e63;">ayuda a proteger y mantener la salud <br> de la piel del bebé,</strong> reduciendo el riesgo de dermatitis atópica o seborreica, <br> especialmente en bebés con antecedentes familiares de enfermedades cutáneas<sup>1</sup>.
+          El área del pañal suele irritarse con facilidad, por lo que es clave el uso de toallitas que <br> incorporen detergentes suaves para <strong style="color: #e91e63;">mantener intacto el manto hidrolipídico</strong> y cremas <br> protectoras, que como su nombre lo indica, forman una película protectora frente a las <br> agresiones de factores externos<sup>*</sup> . 
         </p>
       </div>
     </div>
     <div class="div2">
-      <img src="../assets/otros/baby2.png" alt="Placeholder Image" class="image" />
+      <img src="../assets/otros/baby3.png" alt="Placeholder Image" class="image" />
     </div>
     <div class="div3">
-      <img src="../assets/otros/info-crema.png" alt="Placeholder Image" class="image-centered" />
+      <img src="../assets/otros/info-toallas.png" alt="Placeholder Image" class="image-centered product" />
     </div>
     <div class="div4">
       <img src="../assets/logos-sellos/grupo-sellos.png" alt="Placeholder Image" class="image-centered" />
     </div>
   </div>
-  <FooterText />
 </template>
 
 <script>
-import FooterText from './FooterText.vue';
-
 export default {
-  name: "GridLayout",
-  components: {
-    FooterText
-  }
+  name: "GridLayout"
 };
 </script>
 
@@ -39,11 +36,10 @@ export default {
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  max-width: 100%;
+  width: 100%;
   height: 100vh;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 .div1 {
@@ -72,7 +68,7 @@ export default {
   max-width: 100%;
   padding: 0 10px;
   text-align: justify;
-  text-align-last: justify;
+  text-align-last: center;
 }
 
 .div2 {
@@ -136,7 +132,11 @@ export default {
     height: 90px;
   }
   .parent {
-    height: 120vh; /* 110vh */
+    height: 110vh;
+  }
+
+  .div3 .product {
+    max-width: 180%;
   }
 }
 
@@ -176,3 +176,4 @@ export default {
   }
 }
 </style>
+```
