@@ -18,11 +18,17 @@
       <img src="../assets/logos-sellos/grupo-sellos.png" alt="Placeholder Image" class="image-centered" />
     </div>
   </div>
+  <FooterTextTwo />
 </template>
 
 <script>
+import FooterTextTwo from './FooterTextTwo.vue';
+
 export default {
-  name: "GridLayout"
+  name: "GridLayout",
+  components: {
+    FooterTextTwo
+  }
 };
 </script>
 
