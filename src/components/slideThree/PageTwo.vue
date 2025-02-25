@@ -14,7 +14,7 @@
           </div>
 
           <div class="box top-left" style="flex-direction: row;">
-            <p>Con estudio de sensibilización e irritación dérmica</p>
+            <p><strong>Con estudio de sensibilización e irritación dérmica</strong></p>
             <img src="../../assets/beneficios-productos/irritacion.png" alt="Hidrosense" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
             <span class="line right"></span>
           </div>
@@ -31,7 +31,7 @@
           </div>
           <!-- Contenedor inferior derecho -->
           <div class="box bottom-right">
-            <img src="../../assets/beneficios-productos/sensibilizacion.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
+            <img src="../../assets/beneficios-productos/jojoba.png" alt="No irrita ojos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p>Con <strong>Oxido de Zinc al 15%, Caléndula y Jojoba natural.</strong> Con <strong>Alantoína, Bisabolol  y Complejo calmante</strong></p>
             <span class="line left"></span>
           </div>
