@@ -19,12 +19,6 @@
             <span class="line right"></span>
           </div>
 
-          <!-- Contenedor inferior izquierdo -->
-          <div class="box bottom-left" style="flex-direction: row;">
-            <p>Aprobado y recomendado por pediatras y dermatólogos</p>
-            <img src="../../assets/beneficios-productos/ojo.png" alt="Algodón" style="z-index: 2; transform: translate(0%, 0%) scale(1.07);" />
-            <span class="line right"></span>
-          </div>
         </div>
         
         <img src="../../assets/productos/crema3.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 20%;"/>
@@ -41,6 +35,11 @@
             <p>Con <strong>Oxido de Zinc al 15%, Caléndula y Jojoba natural.</strong> Con <strong>Alantoína, Bisabolol  y Complejo calmante</strong></p>
             <span class="line left"></span>
           </div>
+
+          <div class="small-image-container">
+            <img src="../../assets/logos-sellos/grupo-sellos.png" alt="Nueva imagen" class="small-image" />
+          </div>
+
         </div>
       </div>
       <!-- Contenedor superior derecho -->
@@ -216,7 +215,8 @@ export default {
   flex-direction: row-reverse; /* Imagen a la derecha */
   padding-left: 20px;
   border-radius: 57px 59px 59px 17px;
-  margin-bottom: 8%;
+  margin-bottom: 28%;
+  margin-top: -18%;
 }
 
 .bottom-left {
@@ -239,6 +239,18 @@ export default {
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
   border-radius: 100px 100px 35px 100px;
+}
+
+.small-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  max-width: 70%;
+}
+
+.small-image {
+  max-width: 300px;
+  height: auto;
 }
 
 .content-tab {

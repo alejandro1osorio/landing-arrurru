@@ -22,7 +22,7 @@
         
         <img src="../../assets/productos/toallitas-humedas.png" alt="Shampoo y Baño Líquido Recién Nacido" style="padding: 0 26px;"/>
         
-        <div>
+        <div class="container-item">
           <div class="box top-right">
             <img src="../../assets/beneficios-productos/quimicos.png" alt="Sin Parabenos" style="z-index: 2; transform: translate(0%, 2%) scale(1.07);" />
             <p style="font-size: 0.7rem;">Sin Alcohol, parabenos, siliconas, colorante y sulfatos.</p>
@@ -34,6 +34,11 @@
             <p><strong>Con estudio de sensibilización e irritación dérmica.</strong> Aprobado y recomendado por pediatras y dermatólogos.</p>
             <span class="line left"></span>
           </div>
+
+          <div class="small-image-container">
+            <img src="../../assets/logos-sellos/grupo-sellos.png" alt="Nueva imagen" class="small-image" />
+          </div>
+
         </div>
       </div>
       <!-- Contenedor superior derecho -->
@@ -222,7 +227,7 @@ export default {
   flex-direction: row-reverse; /* Imagen a la derecha */
   padding-left: 20px;
   border-radius: 57px 59px 59px 17px;
-  margin-bottom: 50%;
+  margin-bottom: 19%;
 }
 
 .bottom-left {
@@ -237,7 +242,8 @@ export default {
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
   border-radius: 100px 100px 35px 100px;
-  margin-bottom: 50%;
+  margin-bottom: 19%;
+  margin-top: 36%;
 }
 
 .bottom-right {
@@ -245,6 +251,17 @@ export default {
   flex-direction: row; /* Imagen a la izquierda */
   padding-right: 20px;
   border-radius: 100px 100px 35px 100px;
+}
+
+.small-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.small-image {
+  max-width: 60px;
+  height: auto;
 }
 
 .content-tab {
