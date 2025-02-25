@@ -1,6 +1,6 @@
 <template>
   <div class="footer-text">
-    <p><sup>*</sup>Azcona L. Cuidado de la piel del bebé. Atención especial. Farm Prof. 2005 Vol 19 (11); 54 - 57</p>
+    <p class="pf"><sup>*</sup>Azcona L. Cuidado de la piel del bebé. Atención especial. Farm Prof. 2005 Vol 19 (11); 54 - 57</p>
   </div>
 </template>
 
@@ -31,6 +31,10 @@ export default {
   .footer-text {
     font-size: 0.8em;
     padding: 0px 0px;
+  }
+
+  .pf {
+    padding: 0 30px;
   }
 }
 </style>
