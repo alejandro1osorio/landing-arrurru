@@ -31,7 +31,8 @@
           <strong style="color: #E31C79;">Es una marca experta en el cuidado del bebé</strong> en las diferentes etapas que cuenta con una línea completa de productos suaves, seguros, hipoalergénicos, con el pH ideal para la piel del bebé que no irrita los ojos<sup>*</sup>, dermatológicamente comprobados, certificados y recomendados por dermatólogos y pediatras.
         </p>
         <small>
-          <sup>1</sup>Que hay de nuevo en el cuidado de la piel del recién nacido a término, Johnson E. Hunt R. Infant skin care: updates and recommendations. Curr Opin Pediatr. 2019, 31:476-481.
+          <sup>1</sup>Que hay de nuevo en el cuidado de la piel del recién nacido a término, Johnson E. Hunt R. Infant skin care: updates and recommendations. Curr Opin Pediatr. 2019, 31:476-481. <br>
+          <sup>*</sup>En shampoo y baño líquido.
         </small>
       </div>
     </div>
@@ -136,6 +137,7 @@ p, h2 {
 
 small {
   color: #7f8c8d; /* Color específico para el texto small */
+  align-self: flex-start;
 }
 
 img {
