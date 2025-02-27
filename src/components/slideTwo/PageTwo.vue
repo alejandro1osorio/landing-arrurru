@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
     <!-- <InfoTwo /> -->
-    <h1 class="page-title"><strong>Crema</strong> Recién Nacido</h1>
+    <h1 class="page-title"><strong>Crema</strong> Suavidad & Humectación</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
@@ -72,7 +72,7 @@
     </div>
 
     <footer>
-      <p class="text-footer">Con estudio en <strong>pieles sensibles</strong></p>
+      <p class="text-footer">Con estudio de <strong>hidratación hasta por 24 horas</strong></p>
     </footer>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
     <!-- <InfoOne /> -->
-    <h1 class="page-title"><strong>Shampoo y Baño Líquido</strong> Recién Nacido</h1>
+    <h1 class="page-title"><strong>Shampoo y Baño Líquido 2 en 1</strong> Recién Nacido</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->

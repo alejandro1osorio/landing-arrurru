@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
     <!-- <InfoTwo /> -->
-    <h1 class="page-title"><strong>Toallitas</strong> Húmedas</h1>
+    <h1 class="page-title"><strong>Crema</strong> Protectora para la colita bebé</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
@@ -73,7 +73,7 @@
     </div>
 
     <footer>
-      <p class="text-footer"><strong>Sin alcohol ni proteína de leche</strong></p>
+      <p class="text-footer"><strong>Óxido de Zinc 15% - Prevención</strong></p>
     </footer>
   </div>
 </template>

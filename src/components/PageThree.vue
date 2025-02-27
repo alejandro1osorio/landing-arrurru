@@ -1,7 +1,7 @@
 <template>
   <div class="page-grid">
     <!-- <InfoThree /> -->
-    <h1 class="page-title"><strong>Shampoo y Baño Líquido</strong> Recién Nacido</h1>
+    <h1 class="page-title"><strong>Baño Líquido</strong> Suavidad & Humectación</h1>
     <div class="image-structure">
       <!-- Contenedor superior izquierdo -->
       <!-- Imagen en el centro -->
@@ -72,7 +72,7 @@
     </div>
 
     <footer>
-      <p class="text-footer">Evaluado en <strong>pieles sensibles</strong></p>
+      <p class="text-footer">Con estudio de <strong>Irritación ocular</strong></p>
     </footer>
   </div>
 </template>
