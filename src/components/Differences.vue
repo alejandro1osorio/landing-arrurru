@@ -15,7 +15,7 @@
         nacimiento? Aunque la evidencia muestra la diferencia en la composición
         de la piel del recién nacido y la de un adulto, <strong style="color: #234D75;">la piel de un bebé a término
         está lista para adaptarse fuera del vientre</strong> gracias a la barrera protectora que
-        se desarrolla durante el último trimestre por el vérnix caseoso.
+        se desarrolla durante el último trimestre por el vérnix caseoso<sup>1</sup>.
       </p>
       <small>
         1.Visscher M. Hu P. Carr A. et al. Newborn infant skin gene expression:
