@@ -4,7 +4,7 @@
       <div class="title-container">
         <h1 class="title">Momento del <strong style="border-bottom: 5px solid #e91e63;">Masaje</strong></h1>
         <p class="description">
-          La piel de los recién nacidos experimenta cambios significativos en su entorno tras el <br> nacimiento, y <strong style="color: #e91e63;">su hidratación puede disminuir rápidamente</strong> apenas se da el <br> alumbramiento<sup>1</sup>. Usar regularmente emolientes <strong style="color: #e91e63;">ayuda a proteger y mantener la salud <br> de la piel del bebé,</strong> reduciendo el riesgo de dermatitis atópica o seborreica, <br> especialmente en bebés con antecedentes familiares de enfermedades cutáneas<sup>1</sup>.
+          La piel de los recién nacidos experimenta cambios significativos en su entorno tras el <br> nacimiento, y <strong style="color: #e91e63;">su hidratación puede disminuir rápidamente</strong> apenas se da el <br> alumbramiento<sup>3</sup>. Usar regularmente emolientes <strong style="color: #e91e63;">ayuda a proteger y mantener la salud <br> de la piel del bebé,</strong> reduciendo el riesgo de dermatitis atópica o seborreica, <br> especialmente en bebés con antecedentes familiares de enfermedades cutáneas<sup>4</sup>.
         </p>
       </div>
     </div>
@@ -40,10 +40,11 @@ export default {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   max-width: 100%;
-  height: 100vh;
+  height: 110vh;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  overflow: hidden;
 }
 
 .div1 {

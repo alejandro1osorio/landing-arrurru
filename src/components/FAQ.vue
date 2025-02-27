@@ -78,7 +78,7 @@
     /* font-family: "Arial", sans-serif; */
     color: #E4016A;
     margin-bottom: 20px;
-    font-weight: lighter;
+    font-weight: 300;
   }
   
   .faq-title .highlight {

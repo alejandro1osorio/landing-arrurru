@@ -1,11 +1,11 @@
 <template>
   <div class="grid-container">
     <div class="grid-item item1">
-      <h2>El cuidado de la piel de los recién nacidos <span class="highlight">favorece el buen funcionamiento y su maduración</span> después del nacimiento<sup>1</sup>, teniendo en cuenta que:</h2>
+      <h2 style="text-align: center;">El cuidado de la piel de los recién nacidos <span class="highlight">favorece el buen funcionamiento y su maduración</span> después del nacimiento<sup style="font-size: 16px;">2</sup>, teniendo en cuenta que:</h2>
     </div>
     <div class="grid-item item2">
-      <p>
-        Recientes investigaciones señalan que el uso diario de emolientes cutáneos desde el nacimiento del bebé a término es <span class="highlight">un factor protector en la prevención de la dermatitis atópica<sup>1</sup>.</span>
+      <p style="text-align: center;">
+        Recientes investigaciones señalan que el uso diario de emolientes cutáneos desde el nacimiento del bebé a término es <span class="highlight">un factor protector en la prevención de la dermatitis atópica<sup>2</sup>.</span>
       </p>
     </div>
     <div class="grid-item item3">
@@ -18,8 +18,8 @@
       <img src="../assets/otros/item3.png" alt="Imagen 5" />
     </div>
     <div class="grid-item item6">
-      <p>
-        <strong>En el cuidado del recién nacido,</strong> es fundamental prestar atención especial a los siguientes aspectos: el baño, la hidratación de la piel, el cuidado del cordón umbilical y la zona del pañal<sup>1</sup>
+      <p style="text-align: center;">
+        <strong>En el cuidado del recién nacido,</strong> es fundamental prestar atención especial a los siguientes aspectos: el baño, la hidratación de la piel, el cuidado del cordón umbilical y la zona del pañal<sup>2</sup>
       </p>
     </div>
     <div class="grid-item item7-9">
@@ -27,13 +27,13 @@
         <img src="../assets/logos-sellos/logo-arrurru.png" alt="Imagen 7" />
       </div>
       <div class="text-container">
-        <p>
+        <p class="text-align-start" style="margin: 0;">
           <strong style="color: #E31C79;">Es una marca experta en el cuidado del bebé</strong> en las diferentes etapas que cuenta con una línea completa de productos suaves, seguros, hipoalergénicos, con el pH ideal para la piel del bebé que no irrita los ojos<sup>*</sup>, dermatológicamente comprobados, certificados y recomendados por dermatólogos y pediatras.
         </p>
-        <small>
-          <sup>1</sup>Que hay de nuevo en el cuidado de la piel del recién nacido a término, Johnson E. Hunt R. Infant skin care: updates and recommendations. Curr Opin Pediatr. 2019, 31:476-481. <br>
+        <p class="text-align-start" style="color: #707070; font-size: 0.65em; font-style: italic; line-height: 1;">
+          2. Que hay de nuevo en el cuidado de la piel del recién nacido a término, Johnson E. Hunt R. Infant skin care: updates and recommendations. Curr Opin Pediatr. 2019, 31:476-481. <br>
           <sup>*</sup>En shampoo y baño líquido.
-        </small>
+        </p>
       </div>
     </div>
   </div><!-- test -->
@@ -114,7 +114,7 @@ export default {
 .item7-9 {
   grid-column: span 3;
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   gap: 16px;
   font-size: 1.8rem; /* Tamaño de letra mayor en monitores */
   padding-left: 64px; /* Aumentar margen lateral izquierdo */
@@ -131,13 +131,17 @@ export default {
   flex: 1;
 }
 
+.text-align-start {
+  text-align-last: start;
+}
+
 p, h2 {
   color: #214F79; /* Color para los textos principales */
 }
 
 small {
   color: #7f8c8d; /* Color específico para el texto small */
-  align-self: flex-start;
+  /* align-self: flex-start; */
 }
 
 img {
@@ -184,7 +188,7 @@ img {
 
   .grid-item, h2, p {
     text-align: justify;
-    text-align-last: center;
+    /* text-align-last: center; */
     letter-spacing: -1px;
   }
 }

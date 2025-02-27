@@ -17,7 +17,7 @@
         está lista para adaptarse fuera del vientre</strong> gracias a la barrera protectora que
         se desarrolla durante el último trimestre por el vérnix caseoso<sup>1</sup>.
       </p>
-      <small>
+      <small style="font-style: italic;">
         1.Visscher M. Hu P. Carr A. et al. Newborn infant skin gene expression:
         Remarkable differences versus adults. PLoS One. 2021 Oct 19;16(10)
       </small>
@@ -82,7 +82,7 @@ export default {
 }
 
 .text-container small {
-  font-size: 1.2rem; 
+  font-size: 1.1rem; 
   color: #7f8c8d;
   font-weight: 300;
   line-height: 1.1;
