@@ -1,6 +1,6 @@
 <template>
   <div class="footer-text">
-    <p><sup>3</sup>Qué hay de nuevo en el cuidado de la piel del recién nacido a término Johnson E. Hunt R. Infant skin care: updates and <br> recommendations. Curr Opin Pediatr 2019, 31:476–481 <sup>4</sup> Estudio para pieles sensibles en al línea recién nacido de Arrurrú
+    <p>3.  Qué hay de nuevo en el cuidado de la piel del recién nacido a término Johnson E. Hunt R. Infant skin care: updates and <br> recommendations. Curr Opin Pediatr 2019, 31:476–481  4. Estudio para pieles sensibles en al línea recién nacido de Arrurrú
 </p>
   </div>
 </template>
