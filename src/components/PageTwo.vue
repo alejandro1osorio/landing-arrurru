@@ -60,7 +60,7 @@
       </div>
 
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        El delicado cuero cabelludo del bebé necesita cuidado especializado. Arrurrú Shampoo Suavidad & Humectación, contiene Hidrosense Hidrata la piel del bebé hasta por 24 horas ayudando a retener su humectación natural. (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio), <strong style="color: #E4016A;">que cuida la delicada piel del bebé mientras hidrata y limpia suavemente el cabello, </strong>dejándolo brillante y con un aroma que transmitirá sensación de caricia y cuidado para tu bebé. <br>
+        El delicado cuero cabelludo del bebé necesita cuidado especializado. Arrurrú Shampoo Suavidad & Humectación, contiene Hidrosense (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio), <strong style="color: #E4016A;">que cuida la delicada piel del bebé mientras hidrata y limpia suavemente el cabello,</strong> dejándolo brillante y con un aroma que transmitirá sensación de caricia y cuidado para tu bebé.  <br><br>
         <strong style="color: #E4016A;">•</strong> Delicado con los ojos del bebé, no los irrita <br>
         <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado <br>
         <strong style="color: #E4016A;">•</strong> Libre de parabenos, sal, colorantes y sulfatos <br>

@@ -4,7 +4,7 @@
       <div class="title-container">
         <h1 class="title">Momento del <br><strong>Cuidado de la <strong style="border-bottom: 5px solid #e91e63;">Colita</strong></strong></h1>
         <p class="description">
-          El área del pañal suele irritarse con facilidad, por lo que es clave el uso de toallitas que <br> incorporen detergentes suaves para <strong style="color: #e91e63;">mantener intacto el manto hidrolipídico</strong> y cremas <br> protectoras, que como su nombre lo indica, forman una película protectora frente a las <br> agresiones de factores externos<sup>*</sup> . 
+          El área del pañal suele irritarse con facilidad, por lo que es clave el uso de toallitas que <br> incorporen ingredientes suaves para <strong style="color: #e91e63;">mantener intacto el manto hidrolipídico</strong> y cremas <br> protectoras, que como su nombre lo indica, forman una película protectora frente a las <br> agresiones de factores externos<sup>*</sup>. Arrurrú cuenta con un portafolio completo para el <br> cuidado de la colita del bebé con productos hipoalergénicos y dermatológicamente <br> comprobados con el Ph ideal para su piel. 
         </p>
       </div>
     </div>

@@ -64,7 +64,9 @@
         formulado especialmente diseñada con Hidrosense (Mezcla única de Jojoba + Biolípido de
         origen natural en nuestro portafolio) y extracto algodón, que cuidan la delicada piel del bebé,
         nutriéndola y protegiéndola desde el primer día. <strong style="color: #E4016A;">Hidrata la piel del bebé hasta por 24 horas
-          ayudando a retener su humectación natural.</strong><br>
+          ayudando a retener su humectación natural.</strong><br><br>
+
+        <strong style="color: #E4016A;">•</strong> Ideal para pieles sensibles. <br>
         <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado. <br>
         <strong style="color: #E4016A;">•</strong> Libre de parabenos y colorantes adicionados. <br>
         <strong style="color: #E4016A;">•</strong> Cuida especialmente la delicada piel de tu bebé.
