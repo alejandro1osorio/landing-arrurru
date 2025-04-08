@@ -63,6 +63,7 @@
         ¡Incluye practicorte que se adapta a tus necesidades y evita el desperdicio! <br><br>
 
 
+        <strong style="color: #E4016A;">•</strong> Sin alcohol ni proteína de leche <br>
         <strong style="color: #E4016A;">•</strong> pH ideal para la piel del bebé <br>
         <strong style="color: #E4016A;">•</strong> Libre de parabenos, siliconas, colorantes y sulfatos <br>
         <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado <br>

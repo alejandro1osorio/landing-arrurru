@@ -62,6 +62,7 @@
       <p v-if="activeTab === 'benefits'" class="text-tab">
         La piel de tu bebé necesita un cuidado especial, ya que, el uso del pañal puede causar irritaciones por el roce. Arrurrú Crema Protectora para la colita del bebé con Hidrosense (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio), contiene óxido de zinc, caléndula y Jojoba natural que protegen la delicada piel del bebé contra la humedad, conservando su humectación natural. <br><br>
 
+        <strong style="color: #E4016A;">•</strong> Óxiso de Zincc 15% - Prevención <br>
         <strong style="color: #E4016A;">•</strong> Protege a la colita de la irritación <br>
         <strong style="color: #E4016A;">•</strong> Textura Suave <br>
         <strong style="color: #E4016A;">•</strong> Hipoalergénico y dermatológicamente testeado <br>

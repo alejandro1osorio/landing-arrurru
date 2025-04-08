@@ -5,7 +5,7 @@
         <div class="footer-container" @click="redirectTo('https://www.farmatodo.com.co/destacados/58413?utm_source=kraken&utm_medium=banner_home&utm_campaign=saleoff&utm_content=todas&utm_term=general30')">
           <img src="../assets/logos-sellos/logoFarmatodo.png" alt="Logo 1" class="footer-logo" />
         </div>
-        <div class="footer-container" @click="redirectTo('https://www.exito.com/s?q=arrurru&sort=score_desc&page=0')">
+        <div class="footer-container" @click="redirectTo('https://www.exito.com/bebes-arrurru')">
           <img src="../assets/logos-sellos/logoExito.png" alt="Logo 2" class="footer-logo" />
         </div>
       </div>
