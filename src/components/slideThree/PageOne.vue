@@ -59,7 +59,7 @@
         </button>
       </div>
       <p v-if="activeTab === 'benefits'" class="text-tab">
-        Arrurrú trae las nuevas Toallitas Húmedas Suavidad & Humectación con Hidrosense (Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio) que cuidan la delicada piel de tu bebé dejándola limpia, suave y humectada, al tiempo que cuidan el medio ambiente gracias a nuestra tela hecha con fibras de origen natural y biodegradables y a nuestro empaque con reducción de más del 11% de plástico3. Libre de alcohol etílico.
+        Arrurrú trae las nuevas Toallitas Húmedas Suavidad & Humectación con Hidrosense <strong style="color: #E4016A;">(Mezcla única de Jojoba + Biolípido de origen natural en nuestro portafolio)</strong> que cuidan la delicada piel de tu bebé dejándola limpia, suave y humectada, al tiempo que cuidan el medio ambiente gracias a nuestra tela hecha con fibras de origen natural y biodegradables y a nuestro empaque con reducción de más del 11% de plástico3. Libre de alcohol etílico.
         ¡Incluye practicorte que se adapta a tus necesidades y evita el desperdicio! <br><br>
 
 
