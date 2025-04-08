@@ -20,8 +20,8 @@
         </li>
       </ul>
       <div class="menu-toggle" @click="toggleMenu" v-if="isMobile">
-        <span v-if="!isMenuOpen">&#9776;</span>
-        <span v-else>&#10005;</span>
+        <span v-if="!isMenuOpen" style="position: fixed;">&#9776;</span>
+        <span v-else style="position: fixed;">&#10005;</span>
       </div>
     </nav>
   </header>
@@ -90,6 +90,7 @@ export default {
   padding: 0.8rem 2rem;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
+  position: fixed;
 }
 
 .nav-item {
@@ -154,7 +155,7 @@ export default {
 
   .nav-list {
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
