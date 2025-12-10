@@ -8,13 +8,16 @@
     <Differences />
     <Items />
 
-    <InfoOne />
+    <!-- <InfoOne /> -->
+    <InfoOneTest />
     <Slider />
 
-    <InfoTwo />
+    <!-- <InfoTwo /> -->
+     <InfoTwoTest />
     <SliderTwo />
 
-    <InfoThree />
+    <!-- <InfoThree /> -->
+     <InfoThreeTest />
     <SliderThree />
 
     <Benefits />
@@ -44,6 +47,9 @@ import Benefits from "./components/Benefits.vue";
 import Blog from "./components/Blog.vue"
 import FAQ from "./components/FAQ.vue";
 import Footer from "./components/Footer.vue";
+import InfoOneTest from "./components/InfoOneTest.vue";
+import InfoTwoTest from "./components/InfoTwoTest.vue";
+import InfoThreeTest from "./components/InfoThreeTest.vue";
 
 export default {
   name: "App",
@@ -52,13 +58,16 @@ export default {
     Differences,
     Items,
     /* tema 1 */
-    InfoOne, 
+    /* InfoOne, */ 
+    InfoOneTest, 
     Slider,
     /* tema 2 */
-    InfoTwo,
+    /* InfoTwo, */
+    InfoTwoTest,
     SliderTwo,
     /* tema 3 */
-    InfoThree,
+    /* InfoThree, */
+    InfoThreeTest,
     SliderThree,
     Benefits,
     Blog,

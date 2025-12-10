@@ -1,15 +1,8 @@
-InfoTwo
-
-```
 <template>
-  <div class="parent" id="masaje">
+  <div class="parent" id="50color">
     <div class="div1">
-      <div class="title-container">
-        <h1 class="title">Momento del <strong style="border-bottom: 5px solid #e91e63;">Masaje</strong></h1>
-        <p class="description">
-          La piel de los recién nacidos experimenta cambios significativos en su entorno tras el <br> nacimiento, y <strong style="color: #e91e63;">su hidratación puede disminuir rápidamente</strong> apenas se da el <br> alumbramiento<sup>1</sup>. Usar regularmente emolientes <strong style="color: #e91e63;">ayuda a proteger y mantener la salud <br> de la piel del bebé,</strong> reduciendo el riesgo de dermatitis atópica o seborreica, <br> especialmente en bebés con antecedentes familiares de enfermedades cutáneas<sup>1</sup>.
-        </p>
-      </div>
+      <div class="top-line"></div>
+      <h1 class="title">Protector Solar con Color <strong>SPF50</strong></h1>
     </div>
     <div class="div2">
       <img src="../assets/otros/baby2.png" alt="Placeholder Image" class="image" />
@@ -40,35 +33,35 @@ export default {
   height: 100vh;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: #f4f4f4; */
 }
 
 .div1 {
-  grid-area: 1 / 1 / 2 / 13;
+  grid-area: 1 / 1 / 2 / 13;  /* 1, 2, 2, 11 */ 
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   width: 100%;
   margin: 0;
   position: relative;
   text-align: center;
 }
 
+.top-line {
+  width: 15%;
+  height: 2px;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .div1 .title {
   font-size: 2em;
   font-weight: 300;
   color: #214F79;
-  margin-bottom: 0.5em;
-}
-
-.div1 .description {
-  font-size: 1.2em;
-  color: #214F79;
-  max-width: 100%;
-  padding: 0 10px;
-  text-align: justify;
-  text-align-last: justify;
 }
 
 .div2 {
@@ -121,18 +114,16 @@ export default {
 }
 
 @media screen and (min-width: 1400px) {
-  
+  /* Estilos para monitores muy grandes */
   .div4 {
     height: 110px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1399px) {
+  /* portatiles con pantallas medianas */
   .div4 {
     height: 90px;
-  }
-  .parent {
-    height: 110vh;
   }
 }
 
@@ -140,7 +131,7 @@ export default {
   .parent {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
-    height: 155vh;
+    height: 110vh;
   }
 
   .div1 {
@@ -149,14 +140,6 @@ export default {
 
   .div1 .title {
     font-size: 1.5em;
-  }
-
-  .div1 .description {
-    font-size: 1em;
-    max-width: 100%;
-    padding: 0 30px;
-    text-align: center;
-    word-spacing: 1px;
   }
 
   .div2 {
@@ -170,6 +153,9 @@ export default {
   .div4 {
     grid-area: 4 / 1 / 5 / 7;
   }
+
+  .top-line {
+    width: 190px;
+  }
 }
 </style>
-```
