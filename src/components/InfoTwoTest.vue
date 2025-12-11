@@ -1,5 +1,5 @@
 <template>
-  <div class="parent" id="50color">
+  <div class="parent" id="masaje">
     <div class="div1">
       <div class="title-wrapper">
         <h1 class="title">
