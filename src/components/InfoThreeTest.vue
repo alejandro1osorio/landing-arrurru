@@ -1,15 +1,25 @@
 <template>
   <div class="parent" id="50color">
     <div class="div1">
-      <div class="top-line"></div>
-      <h1 class="title">Protector Solar con Color <strong>SPF50</strong></h1>
+      <div class="title-wrapper">
+        <h1 class="title">
+          Momento del <br><strong>Cuidado de la <strong style="border-bottom: 5px solid #e91e63;">Colita</strong></strong>
+        </h1>
+
+        <p class="subtitle">
+          El área del pañal se irrita fácilmente, por eso se aconsejan toallitas suaves que no dañen el manto hidrolipídico. Las cremas protectoras ayudan creando una barrera frente a agresiones externas.
+        </p>
+      </div>
     </div>
+
     <div class="div2">
       <img src="../assets/otros/baby3.png" alt="Placeholder Image" class="image" />
     </div>
+
     <div class="div3">
       <img src="../assets/otros/info-toallas.png" alt="Placeholder Image" class="image-centered" />
     </div>
+
     <div class="div4">
       <img src="../assets/logos-sellos/grupo-sellos.png" alt="Placeholder Image" class="image-centered" />
     </div>
@@ -33,35 +43,36 @@ export default {
   height: 100vh;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #f4f4f4; */
 }
 
 .div1 {
-  grid-area: 1 / 1 / 2 / 13;  /* 1, 2, 2, 11 */ 
-  color: white;
+  grid-area: 1 / 1 / 2 / 13;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  flex-direction: column;
+  text-align: center;
   margin: 0;
   position: relative;
-  text-align: center;
 }
 
-.top-line {
-  width: 15%;
-  height: 2px;
-  background-color: orange;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+.title-wrapper {
+  max-width: 700px;
+  padding: 0 16px;
 }
 
 .div1 .title {
   font-size: 2em;
   font-weight: 300;
   color: #214F79;
+  margin-bottom: 0.4em;
+}
+
+.subtitle {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #4b678a;
+  margin: 0 auto;
 }
 
 .div2 {
@@ -81,11 +92,9 @@ export default {
 
 .div3 {
   grid-area: 2 / 9 / 5 / 12;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5em;
   height: 100%;
   margin: 0;
 }
@@ -98,11 +107,9 @@ export default {
 
 .div4 {
   grid-area: 5 / 8 / 6 / 13;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5em;
   height: 80px;
   margin: 0;
 }
@@ -113,25 +120,35 @@ export default {
   object-fit: contain;
 }
 
+/* Monitores grandes */
 @media screen and (min-width: 1400px) {
-  /* Estilos para monitores muy grandes */
+  .div1 .title {
+    font-size: 2.4em;
+  }
+  .subtitle {
+    font-size: 1.05rem;
+  }
   .div4 {
     height: 110px;
   }
 }
 
+/* Portátiles medianos */
 @media screen and (min-width: 1024px) and (max-width: 1399px) {
-  /* portatiles con pantallas medianas */
+  .div1 .title {
+    font-size: 2.1em;
+  }
   .div4 {
     height: 90px;
   }
 }
 
+/* Móvil */
 @media screen and (max-width: 768px) {
   .parent {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
-    height: 110vh;
+    height: 140vh;
   }
 
   .div1 {
@@ -140,6 +157,10 @@ export default {
 
   .div1 .title {
     font-size: 1.5em;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
   }
 
   .div2 {
@@ -152,10 +173,6 @@ export default {
 
   .div4 {
     grid-area: 4 / 1 / 5 / 7;
-  }
-
-  .top-line {
-    width: 190px;
   }
 }
 </style>

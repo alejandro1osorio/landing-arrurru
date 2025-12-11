@@ -1,8 +1,6 @@
 <template>
   <div class="parent" id="50color">
     <div class="div1">
-      <div class="top-line"></div>
-
       <div class="title-wrapper">
         <h1 class="title">
           Momento del <strong style="border-bottom: 5px solid #e91e63;">Baño</strong>
@@ -60,15 +58,6 @@ export default {
   padding: 0 16px;
 }
 
-.top-line {
-  width: 15%;
-  height: 2px;
-  background-color: orange;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 .div1 .title {
   font-size: 2em;
@@ -176,10 +165,6 @@ export default {
 
   .div4 {
     grid-area: 4 / 1 / 5 / 7;
-  }
-
-  .top-line {
-    width: 190px;
   }
 }
 </style>
