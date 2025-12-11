@@ -40,7 +40,7 @@ export default {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   padding: 0;
   box-sizing: border-box;
 }
