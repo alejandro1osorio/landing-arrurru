@@ -165,7 +165,8 @@ img {
   .item7-9 {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: start;
+    font-size: 1.7rem;
   }
 
   .image-container img {
